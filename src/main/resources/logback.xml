@@ -1,0 +1,73 @@
+<configuration>
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <!-- encoders are assigned the type
+             ch.qos.logback.classic.encoder.PatternLayoutEncoder by default -->
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} %-5level [%thread %class{0}.%M %L] - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="ROOT" class="ch.qos.logback.core.FileAppender">
+        <file>loggers/root.log</file>
+        <append>false</append>
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} %-5level [%thread %class{0}.%M %L] - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="TEST" class="ch.qos.logback.core.FileAppender">
+        <file>loggers/test.log</file>
+        <append>true</append>
+        <encoder>
+            <pattern>%-4relative [%thread] %-5level %logger{35} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="SootAddText" class="ch.qos.logback.core.FileAppender">
+        <file>loggers/sootAddText.log</file>
+        <append>false</append>
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{35} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="AutInfo" class="ch.qos.logback.core.FileAppender">
+        <file>loggers/autInfo.log</file>
+        <append>false</append>
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{35} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="DependencyAgent" class="ch.qos.logback.core.FileAppender">
+        <file>loggers/dependency-agent.log</file>
+        <append>false</append>
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{35} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <root level="debug">
+        <appender-ref ref="STDOUT" />
+        <appender-ref ref="ROOT" />
+    </root>
+
+    <logger name="examples.test.LogbackExample" level="trace">
+        <appender-ref ref="TEST" />
+    </logger>
+
+    <logger name="SootAddText" level="debug">
+        <appender-ref ref="SootAddText"/>
+    </logger>
+
+    <logger name="AutInfo" level="debug">
+        <appender-ref ref="AutInfo"/>
+    </logger>
+
+    <logger name="edu.wmich.cs.radish.ddg.DependencyAgent" level="debug">
+        <appender-ref ref="DependencyAgent"/>
+    </logger>
+
+
+</configuration>

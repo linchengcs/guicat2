@@ -1,0 +1,159 @@
+apply plugin: 'java'
+apply plugin:'application'
+mainClassName = 'edu.wmich.cs.spinach.AUTMain'
+
+
+repositories {
+    jcenter()
+}
+
+// In this section you declare the dependencies for your production and test code
+dependencies {
+    // The production code uses the SLF4J logging API at compile time
+    compile 'org.slf4j:slf4j-api:1.7.12'
+    compile fileTree('lib')
+
+    testCompile 'junit:junit:4.12'
+}
+
+task jarSpinach(type: Jar, dependsOn: classes) {
+    destinationDir = file('lib')
+    archiveName = "spinach.jar"
+
+    from ("build/classes/main") {
+
+    }
+    from ("build/resources/main") {}
+}
+
+task jarDependencyAgent(type: Jar, dependsOn: classes) {
+    manifest {
+        attributes 'Premain-Class': 'edu.wmich.cs.radish.ddg.DependencyAgent'
+    }
+    destinationDir = file('lib')
+    archiveName = "dependency-agent.jar"
+
+    from ("build/classes/main") {
+        include("edu/wmich/cs/radish/ddg/DependencyAgent.class")
+        include("edu/wmich/cs/radish/AutConf.class")
+    }
+}
+
+
+task jarGuitarAgent(type: Jar, dependsOn: classes) {
+    manifest {
+        attributes 'Premain-Class': 'edu.wmich.cs.radish.ddg.GuitarAgent'
+    }
+    destinationDir = file('lib')
+    archiveName = "guitar-agent.jar"
+
+    from ("build/classes/main") {
+        includes = ["edu/wmich/cs/radish/ddg/GuitarAgent.class", "edu/wmich/cs/radish/AutConf.class"]
+    }
+}
+
+task jarSlice(type: Jar, dependsOn: classes) {
+    destinationDir = file('lib')
+    archiveName = "slice.jar"
+    from("build/classes/main") {
+        include("edu/umd/cs/guitar/testcase")
+    }
+}
+
+task jarBarad(type: Jar, dependsOn: classes) {
+    destinationDir = file('aut')
+    archiveName = "barad-ticket.jar"
+    from("build/classes/main") {
+        include("edu/wmich/cs/aut/barad/*")
+    }
+    from('src/main/java') {
+        include("edu/wmich/cs/aut/barad/*")
+    }
+}
+
+task jarArlt12(type: Jar, dependsOn: classes) {
+    destinationDir = file('aut')
+    archiveName = "arlt.jar"
+    from("build/classes/main") {
+        include("edu/wmich/cs/aut/arlt12/*")
+    }
+    from('src/main/java') {
+        include("edu/wmich/cs/aut/arlt12/*")
+    }
+    manifest {
+        attributes 'Main-Class': 'edu.wmich.cs.aut.arlt12.Main'
+    }
+}
+
+
+task jarArlt14(type: Jar, dependsOn: classes) {
+    destinationDir = file('aut')
+    archiveName = "arlt14.jar"
+    from("build/classes/main") {
+        include("edu/wmich/cs/aut/arlt14/*")
+    }
+    from('src/main/java') {
+        include("edu/wmich/cs/aut/arlt14/*")
+    }
+    manifest {
+        attributes 'Main-Class': 'edu.wmich.cs.aut.arlt14.Main'
+    }
+}
+
+task runBarad(type: JavaExec, dependsOn: jarBarad) {
+    classpath = fileTree("aut/barad-ticket.jar")
+    main = "edu.wmich.cs.aut.barad.BaradTicket"
+}
+
+
+task jarWorkout(type: Jar, dependsOn: classes) {
+    destinationDir = file('aut')
+    archiveName = "workout.jar"
+    from("build/classes/main") {
+        include("edu/wmich/cs/aut/workout/*")
+    }
+    from('src/main/java') {
+        include("edu/wmich/cs/aut/workout/*")
+    }
+    manifest {
+        attributes 'Main-Class': 'edu.wmich.cs.aut.workout.Main'
+    }
+}
+
+
+task jarGuess(type: Jar, dependsOn: classes) {
+    destinationDir = file('aut')
+    archiveName = "guess.jar"
+    from("build/classes/main") {
+        include("edu/wmich/cs/aut/guess/WindowDialog*")
+        include("edu/wmich/cs/carot/util/Olog.class")
+    }
+    manifest {
+        attributes 'Main-Class': 'edu.wmich.cs.aut.guess.WindowDialog'
+    }
+}
+
+
+task jarAddressBook(type: Jar, dependsOn: classes) {
+    destinationDir = file('aut')
+    archiveName = "addressbook.jar"
+    from("build/classes/main") {
+        include("edu/wmich/cs/aut/addressbook/AddressBook*")
+    }
+    manifest {
+        attributes 'Main-Class': 'edu.wmich.cs.aut.addressbook.AddressBook'
+    }
+}
+
+
+task jarPayment(type: Jar, dependsOn: classes) {
+    destinationDir = file('aut')
+    archiveName = "payment.jar"
+    from("build/classes/main") {
+        include("edu/wmich/cs/aut/payment/Payment*")
+        include("edu/wmich/cs/carot/util/Olog.class")
+    }
+    manifest {
+        attributes 'Main-Class': 'edu.wmich.cs.aut.payment.PaymentForm'
+    }
+}

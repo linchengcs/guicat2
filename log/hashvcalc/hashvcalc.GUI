@@ -1,0 +1,5405 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GUIStructure>
+    <GUI>
+        <Window>
+            <Attributes>
+                <Property>
+                    <Name>Title</Name>
+                    <Value>Open</Value>
+                </Property>
+                <Property>
+                    <Name>Modal</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>Rootwindow</Name>
+                    <Value>false</Value>
+                </Property>
+                <Property>
+                    <Name>resizable</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>background</Name>
+                    <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+                </Property>
+                <Property>
+                    <Name>locale</Name>
+                    <Value>en_US</Value>
+                </Property>
+                <Property>
+                    <Name>opaque</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>insets</Name>
+                    <Value>java.awt.Insets[top=36,left=1,bottom=1,right=1]</Value>
+                </Property>
+                <Property>
+                    <Name>layout</Name>
+                    <Value>java.awt.BorderLayout[hgap=0,vgap=0]</Value>
+                </Property>
+                <Property>
+                    <Name>foreground</Name>
+                    <Value>java.awt.SystemColor[i=9]</Value>
+                </Property>
+                <Property>
+                    <Name>font</Name>
+                    <Value>java.awt.Font[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+                </Property>
+                <Property>
+                    <Name>x</Name>
+                    <Value>218</Value>
+                </Property>
+                <Property>
+                    <Name>y</Name>
+                    <Value>166</Value>
+                </Property>
+                <Property>
+                    <Name>height</Name>
+                    <Value>363</Value>
+                </Property>
+                <Property>
+                    <Name>width</Name>
+                    <Value>506</Value>
+                </Property>
+                <Property>
+                    <Name>visible</Name>
+                    <Value>true</Value>
+                </Property>
+            </Attributes>
+        </Window>
+        <Container>
+            <Contents>
+                <Container>
+                    <Attributes>
+                        <Property>
+                            <Name>ID</Name>
+                            <Value>w4928724</Value>
+                        </Property>
+                        <Property>
+                            <Name>Class</Name>
+                            <Value>javax.swing.JDialog</Value>
+                        </Property>
+                        <Property>
+                            <Name>Type</Name>
+                            <Value>SYSTEM INTERACTION</Value>
+                        </Property>
+                        <Property>
+                            <Name>X</Name>
+                            <Value>0</Value>
+                        </Property>
+                        <Property>
+                            <Name>Y</Name>
+                            <Value>0</Value>
+                        </Property>
+                        <Property>
+                            <Name>Title</Name>
+                            <Value>Open</Value>
+                        </Property>
+                        <Property>
+                            <Name>background</Name>
+                            <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+                        </Property>
+                        <Property>
+                            <Name>opaque</Name>
+                            <Value>true</Value>
+                        </Property>
+                        <Property>
+                            <Name>foreground</Name>
+                            <Value>java.awt.SystemColor[i=9]</Value>
+                        </Property>
+                        <Property>
+                            <Name>font</Name>
+                            <Value>java.awt.Font[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+                        </Property>
+                        <Property>
+                            <Name>enabled</Name>
+                            <Value>true</Value>
+                        </Property>
+                        <Property>
+                            <Name>focusable</Name>
+                            <Value>true</Value>
+                        </Property>
+                        <Property>
+                            <Name>height</Name>
+                            <Value>363</Value>
+                        </Property>
+                        <Property>
+                            <Name>width</Name>
+                            <Value>506</Value>
+                        </Property>
+                        <Property>
+                            <Name>visible</Name>
+                            <Value>true</Value>
+                        </Property>
+                    </Attributes>
+                    <Contents>
+                        <Container>
+                            <Attributes>
+<Property>
+    <Name>ID</Name>
+    <Value>w2953905704</Value>
+</Property>
+<Property>
+    <Name>Class</Name>
+    <Value>javax.swing.JRootPane</Value>
+</Property>
+<Property>
+    <Name>Type</Name>
+    <Value>SYSTEM INTERACTION</Value>
+</Property>
+<Property>
+    <Name>X</Name>
+    <Value>1</Value>
+</Property>
+<Property>
+    <Name>Y</Name>
+    <Value>36</Value>
+</Property>
+<Property>
+    <Name>Title</Name>
+    <Value>Pos(1,36)</Value>
+</Property>
+<Property>
+    <Name>height</Name>
+    <Value>326</Value>
+</Property>
+<Property>
+    <Name>width</Name>
+    <Value>504</Value>
+</Property>
+<Property>
+    <Name>opaque</Name>
+    <Value>true</Value>
+</Property>
+<Property>
+    <Name>background</Name>
+    <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+</Property>
+<Property>
+    <Name>foreground</Name>
+    <Value>java.awt.SystemColor[i=9]</Value>
+</Property>
+<Property>
+    <Name>font</Name>
+    <Value>java.awt.Font[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+</Property>
+<Property>
+    <Name>enabled</Name>
+    <Value>true</Value>
+</Property>
+<Property>
+    <Name>focusable</Name>
+    <Value>true</Value>
+</Property>
+<Property>
+    <Name>visible</Name>
+    <Value>true</Value>
+</Property>
+                            </Attributes>
+                            <Contents>
+<Widget>
+    <Attributes>
+        <Property>
+            <Name>ID</Name>
+            <Value>w1692160554</Value>
+        </Property>
+        <Property>
+            <Name>Class</Name>
+            <Value>javax.swing.JPanel</Value>
+        </Property>
+        <Property>
+            <Name>Type</Name>
+            <Value>SYSTEM INTERACTION</Value>
+        </Property>
+        <Property>
+            <Name>X</Name>
+            <Value>1</Value>
+        </Property>
+        <Property>
+            <Name>Y</Name>
+            <Value>36</Value>
+        </Property>
+        <Property>
+            <Name>Title</Name>
+            <Value>null.glassPane</Value>
+        </Property>
+        <Property>
+            <Name>height</Name>
+            <Value>326</Value>
+        </Property>
+        <Property>
+            <Name>width</Name>
+            <Value>504</Value>
+        </Property>
+        <Property>
+            <Name>opaque</Name>
+            <Value>false</Value>
+        </Property>
+        <Property>
+            <Name>background</Name>
+            <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+        </Property>
+        <Property>
+            <Name>foreground</Name>
+            <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+        </Property>
+        <Property>
+            <Name>font</Name>
+            <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+        </Property>
+        <Property>
+            <Name>enabled</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>focusable</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>visible</Name>
+            <Value>false</Value>
+        </Property>
+    </Attributes>
+</Widget>
+<Container>
+    <Attributes>
+        <Property>
+            <Name>ID</Name>
+            <Value>w2919121872</Value>
+        </Property>
+        <Property>
+            <Name>Class</Name>
+            <Value>javax.swing.JLayeredPane</Value>
+        </Property>
+        <Property>
+            <Name>Type</Name>
+            <Value>SYSTEM INTERACTION</Value>
+        </Property>
+        <Property>
+            <Name>X</Name>
+            <Value>1</Value>
+        </Property>
+        <Property>
+            <Name>Y</Name>
+            <Value>36</Value>
+        </Property>
+        <Property>
+            <Name>Title</Name>
+            <Value>null.layeredPane</Value>
+        </Property>
+        <Property>
+            <Name>height</Name>
+            <Value>326</Value>
+        </Property>
+        <Property>
+            <Name>width</Name>
+            <Value>504</Value>
+        </Property>
+        <Property>
+            <Name>opaque</Name>
+            <Value>false</Value>
+        </Property>
+        <Property>
+            <Name>background</Name>
+            <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+        </Property>
+        <Property>
+            <Name>foreground</Name>
+            <Value>java.awt.SystemColor[i=9]</Value>
+        </Property>
+        <Property>
+            <Name>font</Name>
+            <Value>java.awt.Font[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+        </Property>
+        <Property>
+            <Name>enabled</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>focusable</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>visible</Name>
+            <Value>true</Value>
+        </Property>
+    </Attributes>
+    <Contents>
+        <Container>
+            <Attributes>
+                <Property>
+                    <Name>ID</Name>
+                    <Value>w2414546780</Value>
+                </Property>
+                <Property>
+                    <Name>Class</Name>
+                    <Value>javax.swing.JPanel</Value>
+                </Property>
+                <Property>
+                    <Name>Type</Name>
+                    <Value>SYSTEM INTERACTION</Value>
+                </Property>
+                <Property>
+                    <Name>X</Name>
+                    <Value>1</Value>
+                </Property>
+                <Property>
+                    <Name>Y</Name>
+                    <Value>36</Value>
+                </Property>
+                <Property>
+                    <Name>Title</Name>
+                    <Value>null.contentPane</Value>
+                </Property>
+                <Property>
+                    <Name>height</Name>
+                    <Value>326</Value>
+                </Property>
+                <Property>
+                    <Name>width</Name>
+                    <Value>504</Value>
+                </Property>
+                <Property>
+                    <Name>opaque</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>background</Name>
+                    <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+                </Property>
+                <Property>
+                    <Name>foreground</Name>
+                    <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+                </Property>
+                <Property>
+                    <Name>font</Name>
+                    <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+                </Property>
+                <Property>
+                    <Name>enabled</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>focusable</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>visible</Name>
+                    <Value>true</Value>
+                </Property>
+            </Attributes>
+            <Contents>
+                <Container>
+                    <Attributes>
+                        <Property>
+                            <Name>ID</Name>
+                            <Value>w3007732986</Value>
+                        </Property>
+                        <Property>
+                            <Name>Class</Name>
+                            <Value>javax.swing.JFileChooser</Value>
+                        </Property>
+                        <Property>
+                            <Name>Type</Name>
+                            <Value>SYSTEM INTERACTION</Value>
+                        </Property>
+                        <Property>
+                            <Name>X</Name>
+                            <Value>1</Value>
+                        </Property>
+                        <Property>
+                            <Name>Y</Name>
+                            <Value>36</Value>
+                        </Property>
+                        <Property>
+                            <Name>Title</Name>
+                            <Value>Pos(1,36)</Value>
+                        </Property>
+                        <Property>
+                            <Name>height</Name>
+                            <Value>326</Value>
+                        </Property>
+                        <Property>
+                            <Name>width</Name>
+                            <Value>504</Value>
+                        </Property>
+                        <Property>
+                            <Name>opaque</Name>
+                            <Value>false</Value>
+                        </Property>
+                        <Property>
+                            <Name>background</Name>
+                            <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+                        </Property>
+                        <Property>
+                            <Name>foreground</Name>
+                            <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+                        </Property>
+                        <Property>
+                            <Name>font</Name>
+                            <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+                        </Property>
+                        <Property>
+                            <Name>enabled</Name>
+                            <Value>true</Value>
+                        </Property>
+                        <Property>
+                            <Name>focusable</Name>
+                            <Value>true</Value>
+                        </Property>
+                        <Property>
+                            <Name>visible</Name>
+                            <Value>true</Value>
+                        </Property>
+                    </Attributes>
+                    <Contents>
+                        <Container>
+                            <Attributes>
+<Property>
+    <Name>ID</Name>
+    <Value>w1762083036</Value>
+</Property>
+<Property>
+    <Name>Class</Name>
+    <Value>javax.swing.JPanel</Value>
+</Property>
+<Property>
+    <Name>Type</Name>
+    <Value>SYSTEM INTERACTION</Value>
+</Property>
+<Property>
+    <Name>X</Name>
+    <Value>13</Value>
+</Property>
+<Property>
+    <Name>Y</Name>
+    <Value>48</Value>
+</Property>
+<Property>
+    <Name>Title</Name>
+    <Value>Pos(13,48)</Value>
+</Property>
+<Property>
+    <Name>height</Name>
+    <Value>27</Value>
+</Property>
+<Property>
+    <Name>width</Name>
+    <Value>481</Value>
+</Property>
+<Property>
+    <Name>opaque</Name>
+    <Value>true</Value>
+</Property>
+<Property>
+    <Name>background</Name>
+    <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+</Property>
+<Property>
+    <Name>foreground</Name>
+    <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+</Property>
+<Property>
+    <Name>font</Name>
+    <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+</Property>
+<Property>
+    <Name>enabled</Name>
+    <Value>true</Value>
+</Property>
+<Property>
+    <Name>focusable</Name>
+    <Value>true</Value>
+</Property>
+<Property>
+    <Name>visible</Name>
+    <Value>true</Value>
+</Property>
+                            </Attributes>
+                            <Contents>
+<Container>
+    <Attributes>
+        <Property>
+            <Name>ID</Name>
+            <Value>w287174504</Value>
+        </Property>
+        <Property>
+            <Name>Class</Name>
+            <Value>javax.swing.JPanel</Value>
+        </Property>
+        <Property>
+            <Name>Type</Name>
+            <Value>SYSTEM INTERACTION</Value>
+        </Property>
+        <Property>
+            <Name>X</Name>
+            <Value>359</Value>
+        </Property>
+        <Property>
+            <Name>Y</Name>
+            <Value>48</Value>
+        </Property>
+        <Property>
+            <Name>Title</Name>
+            <Value>Pos(359,48)</Value>
+        </Property>
+        <Property>
+            <Name>height</Name>
+            <Value>27</Value>
+        </Property>
+        <Property>
+            <Name>width</Name>
+            <Value>135</Value>
+        </Property>
+        <Property>
+            <Name>opaque</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>background</Name>
+            <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+        </Property>
+        <Property>
+            <Name>foreground</Name>
+            <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+        </Property>
+        <Property>
+            <Name>font</Name>
+            <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+        </Property>
+        <Property>
+            <Name>enabled</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>focusable</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>visible</Name>
+            <Value>true</Value>
+        </Property>
+    </Attributes>
+    <Contents>
+        <Widget>
+            <Attributes>
+                <Property>
+                    <Name>ID</Name>
+                    <Value>w1426666970</Value>
+                </Property>
+                <Property>
+                    <Name>Class</Name>
+                    <Value>javax.swing.JButton</Value>
+                </Property>
+                <Property>
+                    <Name>Type</Name>
+                    <Value>SYSTEM INTERACTION</Value>
+                </Property>
+                <Property>
+                    <Name>X</Name>
+                    <Value>359</Value>
+                </Property>
+                <Property>
+                    <Name>Y</Name>
+                    <Value>49</Value>
+                </Property>
+                <Property>
+                    <Name>ReplayableAction</Name>
+                    <Value>edu.umd.cs.guitar.event.JFCActionHandler</Value>
+                </Property>
+                <Property>
+                    <Name>Title</Name>
+                    <Value>Up</Value>
+                </Property>
+                <Property>
+                    <Name>ActionListeners</Name>
+                    <Value>javax.swing.plaf.basic.BasicFileChooserUI$ChangeToParentDirectoryAction</Value>
+                </Property>
+                <Property>
+                    <Name>selected</Name>
+                    <Value>false</Value>
+                </Property>
+                <Property>
+                    <Name>height</Name>
+                    <Value>24</Value>
+                </Property>
+                <Property>
+                    <Name>width</Name>
+                    <Value>24</Value>
+                </Property>
+                <Property>
+                    <Name>opaque</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>background</Name>
+                    <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+                </Property>
+                <Property>
+                    <Name>foreground</Name>
+                    <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+                </Property>
+                <Property>
+                    <Name>font</Name>
+                    <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+                </Property>
+                <Property>
+                    <Name>enabled</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>focusable</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>visible</Name>
+                    <Value>true</Value>
+                </Property>
+            </Attributes>
+        </Widget>
+        <Widget>
+            <Attributes>
+                <Property>
+                    <Name>ID</Name>
+                    <Value>w3577066768</Value>
+                </Property>
+                <Property>
+                    <Name>Class</Name>
+                    <Value>javax.swing.Box$Filler</Value>
+                </Property>
+                <Property>
+                    <Name>Type</Name>
+                    <Value>SYSTEM INTERACTION</Value>
+                </Property>
+                <Property>
+                    <Name>X</Name>
+                    <Value>383</Value>
+                </Property>
+                <Property>
+                    <Name>Y</Name>
+                    <Value>61</Value>
+                </Property>
+                <Property>
+                    <Name>Title</Name>
+                    <Value>Pos(383,61)</Value>
+                </Property>
+                <Property>
+                    <Name>height</Name>
+                    <Value>1</Value>
+                </Property>
+                <Property>
+                    <Name>width</Name>
+                    <Value>5</Value>
+                </Property>
+                <Property>
+                    <Name>opaque</Name>
+                    <Value>false</Value>
+                </Property>
+                <Property>
+                    <Name>background</Name>
+                    <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+                </Property>
+                <Property>
+                    <Name>foreground</Name>
+                    <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+                </Property>
+                <Property>
+                    <Name>font</Name>
+                    <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+                </Property>
+                <Property>
+                    <Name>enabled</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>focusable</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>visible</Name>
+                    <Value>true</Value>
+                </Property>
+            </Attributes>
+        </Widget>
+        <Widget>
+            <Attributes>
+                <Property>
+                    <Name>ID</Name>
+                    <Value>w1435676518</Value>
+                </Property>
+                <Property>
+                    <Name>Class</Name>
+                    <Value>javax.swing.JButton</Value>
+                </Property>
+                <Property>
+                    <Name>Type</Name>
+                    <Value>SYSTEM INTERACTION</Value>
+                </Property>
+                <Property>
+                    <Name>X</Name>
+                    <Value>388</Value>
+                </Property>
+                <Property>
+                    <Name>Y</Name>
+                    <Value>49</Value>
+                </Property>
+                <Property>
+                    <Name>ReplayableAction</Name>
+                    <Value>edu.umd.cs.guitar.event.JFCActionHandler</Value>
+                </Property>
+                <Property>
+                    <Name>Title</Name>
+                    <Value>Home</Value>
+                </Property>
+                <Property>
+                    <Name>ActionListeners</Name>
+                    <Value>javax.swing.plaf.basic.BasicFileChooserUI$GoHomeAction</Value>
+                </Property>
+                <Property>
+                    <Name>selected</Name>
+                    <Value>false</Value>
+                </Property>
+                <Property>
+                    <Name>text</Name>
+                    <Value></Value>
+                </Property>
+                <Property>
+                    <Name>height</Name>
+                    <Value>24</Value>
+                </Property>
+                <Property>
+                    <Name>width</Name>
+                    <Value>24</Value>
+                </Property>
+                <Property>
+                    <Name>opaque</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>background</Name>
+                    <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+                </Property>
+                <Property>
+                    <Name>foreground</Name>
+                    <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+                </Property>
+                <Property>
+                    <Name>font</Name>
+                    <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+                </Property>
+                <Property>
+                    <Name>enabled</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>focusable</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>visible</Name>
+                    <Value>true</Value>
+                </Property>
+            </Attributes>
+        </Widget>
+        <Widget>
+            <Attributes>
+                <Property>
+                    <Name>ID</Name>
+                    <Value>w2026804008</Value>
+                </Property>
+                <Property>
+                    <Name>Class</Name>
+                    <Value>javax.swing.Box$Filler</Value>
+                </Property>
+                <Property>
+                    <Name>Type</Name>
+                    <Value>SYSTEM INTERACTION</Value>
+                </Property>
+                <Property>
+                    <Name>X</Name>
+                    <Value>412</Value>
+                </Property>
+                <Property>
+                    <Name>Y</Name>
+                    <Value>61</Value>
+                </Property>
+                <Property>
+                    <Name>Title</Name>
+                    <Value>Pos(412,61)</Value>
+                </Property>
+                <Property>
+                    <Name>height</Name>
+                    <Value>1</Value>
+                </Property>
+                <Property>
+                    <Name>width</Name>
+                    <Value>5</Value>
+                </Property>
+                <Property>
+                    <Name>opaque</Name>
+                    <Value>false</Value>
+                </Property>
+                <Property>
+                    <Name>background</Name>
+                    <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+                </Property>
+                <Property>
+                    <Name>foreground</Name>
+                    <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+                </Property>
+                <Property>
+                    <Name>font</Name>
+                    <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+                </Property>
+                <Property>
+                    <Name>enabled</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>focusable</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>visible</Name>
+                    <Value>true</Value>
+                </Property>
+            </Attributes>
+        </Widget>
+        <Widget>
+            <Attributes>
+                <Property>
+                    <Name>ID</Name>
+                    <Value>w2606712990</Value>
+                </Property>
+                <Property>
+                    <Name>Class</Name>
+                    <Value>javax.swing.JButton</Value>
+                </Property>
+                <Property>
+                    <Name>Type</Name>
+                    <Value>SYSTEM INTERACTION</Value>
+                </Property>
+                <Property>
+                    <Name>X</Name>
+                    <Value>417</Value>
+                </Property>
+                <Property>
+                    <Name>Y</Name>
+                    <Value>49</Value>
+                </Property>
+                <Property>
+                    <Name>ReplayableAction</Name>
+                    <Value>edu.umd.cs.guitar.event.JFCActionHandler</Value>
+                </Property>
+                <Property>
+                    <Name>Title</Name>
+                    <Value>New Folder</Value>
+                </Property>
+                <Property>
+                    <Name>ActionListeners</Name>
+                    <Value>sun.swing.FilePane$9</Value>
+                </Property>
+                <Property>
+                    <Name>selected</Name>
+                    <Value>false</Value>
+                </Property>
+                <Property>
+                    <Name>height</Name>
+                    <Value>24</Value>
+                </Property>
+                <Property>
+                    <Name>width</Name>
+                    <Value>24</Value>
+                </Property>
+                <Property>
+                    <Name>opaque</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>background</Name>
+                    <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+                </Property>
+                <Property>
+                    <Name>foreground</Name>
+                    <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+                </Property>
+                <Property>
+                    <Name>font</Name>
+                    <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+                </Property>
+                <Property>
+                    <Name>enabled</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>focusable</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>visible</Name>
+                    <Value>true</Value>
+                </Property>
+            </Attributes>
+        </Widget>
+        <Widget>
+            <Attributes>
+                <Property>
+                    <Name>ID</Name>
+                    <Value>w2366659860</Value>
+                </Property>
+                <Property>
+                    <Name>Class</Name>
+                    <Value>javax.swing.Box$Filler</Value>
+                </Property>
+                <Property>
+                    <Name>Type</Name>
+                    <Value>SYSTEM INTERACTION</Value>
+                </Property>
+                <Property>
+                    <Name>X</Name>
+                    <Value>441</Value>
+                </Property>
+                <Property>
+                    <Name>Y</Name>
+                    <Value>61</Value>
+                </Property>
+                <Property>
+                    <Name>Title</Name>
+                    <Value>Pos(441,61)</Value>
+                </Property>
+                <Property>
+                    <Name>height</Name>
+                    <Value>1</Value>
+                </Property>
+                <Property>
+                    <Name>width</Name>
+                    <Value>5</Value>
+                </Property>
+                <Property>
+                    <Name>opaque</Name>
+                    <Value>false</Value>
+                </Property>
+                <Property>
+                    <Name>background</Name>
+                    <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+                </Property>
+                <Property>
+                    <Name>foreground</Name>
+                    <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+                </Property>
+                <Property>
+                    <Name>font</Name>
+                    <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+                </Property>
+                <Property>
+                    <Name>enabled</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>focusable</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>visible</Name>
+                    <Value>true</Value>
+                </Property>
+            </Attributes>
+        </Widget>
+        <Widget>
+            <Attributes>
+                <Property>
+                    <Name>ID</Name>
+                    <Value>w1272399658</Value>
+                </Property>
+                <Property>
+                    <Name>Class</Name>
+                    <Value>javax.swing.JToggleButton</Value>
+                </Property>
+                <Property>
+                    <Name>Type</Name>
+                    <Value>SYSTEM INTERACTION</Value>
+                </Property>
+                <Property>
+                    <Name>X</Name>
+                    <Value>446</Value>
+                </Property>
+                <Property>
+                    <Name>Y</Name>
+                    <Value>49</Value>
+                </Property>
+                <Property>
+                    <Name>ReplayableAction</Name>
+                    <Value>edu.umd.cs.guitar.event.JFCActionHandler</Value>
+                </Property>
+                <Property>
+                    <Name>Title</Name>
+                    <Value>List</Value>
+                </Property>
+                <Property>
+                    <Name>ActionListeners</Name>
+                    <Value>sun.swing.FilePane$ViewTypeAction</Value>
+                </Property>
+                <Property>
+                    <Name>selected</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>text</Name>
+                    <Value></Value>
+                </Property>
+                <Property>
+                    <Name>height</Name>
+                    <Value>24</Value>
+                </Property>
+                <Property>
+                    <Name>width</Name>
+                    <Value>24</Value>
+                </Property>
+                <Property>
+                    <Name>opaque</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>background</Name>
+                    <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+                </Property>
+                <Property>
+                    <Name>foreground</Name>
+                    <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+                </Property>
+                <Property>
+                    <Name>font</Name>
+                    <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+                </Property>
+                <Property>
+                    <Name>enabled</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>focusable</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>visible</Name>
+                    <Value>true</Value>
+                </Property>
+            </Attributes>
+        </Widget>
+        <Widget>
+            <Attributes>
+                <Property>
+                    <Name>ID</Name>
+                    <Value>w1267522808</Value>
+                </Property>
+                <Property>
+                    <Name>Class</Name>
+                    <Value>javax.swing.JToggleButton</Value>
+                </Property>
+                <Property>
+                    <Name>Type</Name>
+                    <Value>SYSTEM INTERACTION</Value>
+                </Property>
+                <Property>
+                    <Name>X</Name>
+                    <Value>470</Value>
+                </Property>
+                <Property>
+                    <Name>Y</Name>
+                    <Value>49</Value>
+                </Property>
+                <Property>
+                    <Name>ReplayableAction</Name>
+                    <Value>edu.umd.cs.guitar.event.JFCActionHandler</Value>
+                </Property>
+                <Property>
+                    <Name>Title</Name>
+                    <Value>Details</Value>
+                </Property>
+                <Property>
+                    <Name>ActionListeners</Name>
+                    <Value>sun.swing.FilePane$ViewTypeAction</Value>
+                </Property>
+                <Property>
+                    <Name>selected</Name>
+                    <Value>false</Value>
+                </Property>
+                <Property>
+                    <Name>text</Name>
+                    <Value></Value>
+                </Property>
+                <Property>
+                    <Name>height</Name>
+                    <Value>24</Value>
+                </Property>
+                <Property>
+                    <Name>width</Name>
+                    <Value>24</Value>
+                </Property>
+                <Property>
+                    <Name>opaque</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>background</Name>
+                    <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+                </Property>
+                <Property>
+                    <Name>foreground</Name>
+                    <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+                </Property>
+                <Property>
+                    <Name>font</Name>
+                    <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+                </Property>
+                <Property>
+                    <Name>enabled</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>focusable</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>visible</Name>
+                    <Value>true</Value>
+                </Property>
+            </Attributes>
+        </Widget>
+    </Contents>
+</Container>
+<Widget>
+    <Attributes>
+        <Property>
+            <Name>ID</Name>
+            <Value>w3543764480</Value>
+        </Property>
+        <Property>
+            <Name>Class</Name>
+            <Value>javax.swing.JLabel</Value>
+        </Property>
+        <Property>
+            <Name>Type</Name>
+            <Value>SYSTEM INTERACTION</Value>
+        </Property>
+        <Property>
+            <Name>X</Name>
+            <Value>13</Value>
+        </Property>
+        <Property>
+            <Name>Y</Name>
+            <Value>48</Value>
+        </Property>
+        <Property>
+            <Name>Title</Name>
+            <Value>Look In:</Value>
+        </Property>
+        <Property>
+            <Name>text</Name>
+            <Value>Look In:</Value>
+        </Property>
+        <Property>
+            <Name>height</Name>
+            <Value>27</Value>
+        </Property>
+        <Property>
+            <Name>width</Name>
+            <Value>48</Value>
+        </Property>
+        <Property>
+            <Name>opaque</Name>
+            <Value>false</Value>
+        </Property>
+        <Property>
+            <Name>background</Name>
+            <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+        </Property>
+        <Property>
+            <Name>foreground</Name>
+            <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+        </Property>
+        <Property>
+            <Name>font</Name>
+            <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+        </Property>
+        <Property>
+            <Name>enabled</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>focusable</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>visible</Name>
+            <Value>true</Value>
+        </Property>
+    </Attributes>
+</Widget>
+<Container>
+    <Attributes>
+        <Property>
+            <Name>ID</Name>
+            <Value>w879833866</Value>
+        </Property>
+        <Property>
+            <Name>Class</Name>
+            <Value>javax.swing.plaf.metal.MetalFileChooserUI$1</Value>
+        </Property>
+        <Property>
+            <Name>Type</Name>
+            <Value>SYSTEM INTERACTION</Value>
+        </Property>
+        <Property>
+            <Name>X</Name>
+            <Value>72</Value>
+        </Property>
+        <Property>
+            <Name>Y</Name>
+            <Value>48</Value>
+        </Property>
+        <Property>
+            <Name>ReplayableAction</Name>
+            <Value>edu.umd.cs.guitar.event.JFCActionHandler</Value>
+        </Property>
+        <Property>
+            <Name>Title</Name>
+            <Value>Look In:</Value>
+        </Property>
+        <Property>
+            <Name>ActionListeners</Name>
+            <Value>javax.swing.plaf.metal.MetalFileChooserUI$DirectoryComboBoxAction</Value>
+        </Property>
+        <Property>
+            <Name>editable</Name>
+            <Value>false</Value>
+        </Property>
+        <Property>
+            <Name>height</Name>
+            <Value>27</Value>
+        </Property>
+        <Property>
+            <Name>width</Name>
+            <Value>276</Value>
+        </Property>
+        <Property>
+            <Name>opaque</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>background</Name>
+            <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+        </Property>
+        <Property>
+            <Name>foreground</Name>
+            <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+        </Property>
+        <Property>
+            <Name>font</Name>
+            <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+        </Property>
+        <Property>
+            <Name>enabled</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>focusable</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>visible</Name>
+            <Value>true</Value>
+        </Property>
+    </Attributes>
+    <Contents>
+        <Widget>
+            <Attributes>
+                <Property>
+                    <Name>ID</Name>
+                    <Value>w1867294922</Value>
+                </Property>
+                <Property>
+                    <Name>Class</Name>
+                    <Value>javax.swing.plaf.metal.MetalComboBoxButton</Value>
+                </Property>
+                <Property>
+                    <Name>Type</Name>
+                    <Value>SYSTEM INTERACTION</Value>
+                </Property>
+                <Property>
+                    <Name>X</Name>
+                    <Value>328</Value>
+                </Property>
+                <Property>
+                    <Name>Y</Name>
+                    <Value>48</Value>
+                </Property>
+                <Property>
+                    <Name>Title</Name>
+                    <Value></Value>
+                </Property>
+                <Property>
+                    <Name>selected</Name>
+                    <Value>false</Value>
+                </Property>
+                <Property>
+                    <Name>text</Name>
+                    <Value></Value>
+                </Property>
+                <Property>
+                    <Name>height</Name>
+                    <Value>27</Value>
+                </Property>
+                <Property>
+                    <Name>width</Name>
+                    <Value>20</Value>
+                </Property>
+                <Property>
+                    <Name>opaque</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>background</Name>
+                    <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+                </Property>
+                <Property>
+                    <Name>foreground</Name>
+                    <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+                </Property>
+                <Property>
+                    <Name>font</Name>
+                    <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+                </Property>
+                <Property>
+                    <Name>enabled</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>focusable</Name>
+                    <Value>false</Value>
+                </Property>
+                <Property>
+                    <Name>visible</Name>
+                    <Value>true</Value>
+                </Property>
+            </Attributes>
+        </Widget>
+        <Widget>
+            <Attributes>
+                <Property>
+                    <Name>ID</Name>
+                    <Value>w3682185684</Value>
+                </Property>
+                <Property>
+                    <Name>Class</Name>
+                    <Value>javax.swing.CellRendererPane</Value>
+                </Property>
+                <Property>
+                    <Name>Type</Name>
+                    <Value>SYSTEM INTERACTION</Value>
+                </Property>
+                <Property>
+                    <Name>X</Name>
+                    <Value>72</Value>
+                </Property>
+                <Property>
+                    <Name>Y</Name>
+                    <Value>48</Value>
+                </Property>
+                <Property>
+                    <Name>Title</Name>
+                    <Value>Pos(72,48)</Value>
+                </Property>
+                <Property>
+                    <Name>background</Name>
+                    <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+                </Property>
+                <Property>
+                    <Name>foreground</Name>
+                    <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+                </Property>
+                <Property>
+                    <Name>font</Name>
+                    <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+                </Property>
+                <Property>
+                    <Name>enabled</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>focusable</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>height</Name>
+                    <Value>0</Value>
+                </Property>
+                <Property>
+                    <Name>width</Name>
+                    <Value>0</Value>
+                </Property>
+                <Property>
+                    <Name>visible</Name>
+                    <Value>false</Value>
+                </Property>
+                <Property>
+                    <Name>opaque</Name>
+                    <Value>false</Value>
+                </Property>
+            </Attributes>
+        </Widget>
+    </Contents>
+</Container>
+                            </Contents>
+                        </Container>
+                        <Widget>
+                            <Attributes>
+<Property>
+    <Name>ID</Name>
+    <Value>w1762083098</Value>
+</Property>
+<Property>
+    <Name>Class</Name>
+    <Value>javax.swing.JPanel</Value>
+</Property>
+<Property>
+    <Name>Type</Name>
+    <Value>SYSTEM INTERACTION</Value>
+</Property>
+<Property>
+    <Name>X</Name>
+    <Value>494</Value>
+</Property>
+<Property>
+    <Name>Y</Name>
+    <Value>86</Value>
+</Property>
+<Property>
+    <Name>Title</Name>
+    <Value>Pos(494,86)</Value>
+</Property>
+<Property>
+    <Name>height</Name>
+    <Value>164</Value>
+</Property>
+<Property>
+    <Name>width</Name>
+    <Value>0</Value>
+</Property>
+<Property>
+    <Name>opaque</Name>
+    <Value>true</Value>
+</Property>
+<Property>
+    <Name>background</Name>
+    <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+</Property>
+<Property>
+    <Name>foreground</Name>
+    <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+</Property>
+<Property>
+    <Name>font</Name>
+    <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+</Property>
+<Property>
+    <Name>enabled</Name>
+    <Value>true</Value>
+</Property>
+<Property>
+    <Name>focusable</Name>
+    <Value>true</Value>
+</Property>
+<Property>
+    <Name>visible</Name>
+    <Value>true</Value>
+</Property>
+                            </Attributes>
+                        </Widget>
+                        <Container>
+                            <Attributes>
+<Property>
+    <Name>ID</Name>
+    <Value>w2625947590</Value>
+</Property>
+<Property>
+    <Name>Class</Name>
+    <Value>sun.swing.FilePane</Value>
+</Property>
+<Property>
+    <Name>Type</Name>
+    <Value>SYSTEM INTERACTION</Value>
+</Property>
+<Property>
+    <Name>X</Name>
+    <Value>13</Value>
+</Property>
+<Property>
+    <Name>Y</Name>
+    <Value>86</Value>
+</Property>
+<Property>
+    <Name>Title</Name>
+    <Value>Pos(13,86)</Value>
+</Property>
+<Property>
+    <Name>height</Name>
+    <Value>164</Value>
+</Property>
+<Property>
+    <Name>width</Name>
+    <Value>481</Value>
+</Property>
+<Property>
+    <Name>opaque</Name>
+    <Value>true</Value>
+</Property>
+<Property>
+    <Name>background</Name>
+    <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+</Property>
+<Property>
+    <Name>foreground</Name>
+    <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+</Property>
+<Property>
+    <Name>font</Name>
+    <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+</Property>
+<Property>
+    <Name>enabled</Name>
+    <Value>true</Value>
+</Property>
+<Property>
+    <Name>focusable</Name>
+    <Value>true</Value>
+</Property>
+<Property>
+    <Name>visible</Name>
+    <Value>true</Value>
+</Property>
+                            </Attributes>
+                            <Contents>
+<Container>
+    <Attributes>
+        <Property>
+            <Name>ID</Name>
+            <Value>w287178348</Value>
+        </Property>
+        <Property>
+            <Name>Class</Name>
+            <Value>javax.swing.JPanel</Value>
+        </Property>
+        <Property>
+            <Name>Type</Name>
+            <Value>SYSTEM INTERACTION</Value>
+        </Property>
+        <Property>
+            <Name>X</Name>
+            <Value>13</Value>
+        </Property>
+        <Property>
+            <Name>Y</Name>
+            <Value>86</Value>
+        </Property>
+        <Property>
+            <Name>Title</Name>
+            <Value>Pos(13,86)</Value>
+        </Property>
+        <Property>
+            <Name>height</Name>
+            <Value>164</Value>
+        </Property>
+        <Property>
+            <Name>width</Name>
+            <Value>481</Value>
+        </Property>
+        <Property>
+            <Name>opaque</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>background</Name>
+            <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+        </Property>
+        <Property>
+            <Name>foreground</Name>
+            <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+        </Property>
+        <Property>
+            <Name>font</Name>
+            <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+        </Property>
+        <Property>
+            <Name>enabled</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>focusable</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>visible</Name>
+            <Value>true</Value>
+        </Property>
+    </Attributes>
+    <Contents>
+        <Container>
+            <Attributes>
+                <Property>
+                    <Name>ID</Name>
+                    <Value>w4055120002</Value>
+                </Property>
+                <Property>
+                    <Name>Class</Name>
+                    <Value>javax.swing.JScrollPane</Value>
+                </Property>
+                <Property>
+                    <Name>Type</Name>
+                    <Value>SYSTEM INTERACTION</Value>
+                </Property>
+                <Property>
+                    <Name>X</Name>
+                    <Value>13</Value>
+                </Property>
+                <Property>
+                    <Name>Y</Name>
+                    <Value>86</Value>
+                </Property>
+                <Property>
+                    <Name>Title</Name>
+                    <Value>Pos(13,86)</Value>
+                </Property>
+                <Property>
+                    <Name>height</Name>
+                    <Value>164</Value>
+                </Property>
+                <Property>
+                    <Name>width</Name>
+                    <Value>481</Value>
+                </Property>
+                <Property>
+                    <Name>opaque</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>background</Name>
+                    <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+                </Property>
+                <Property>
+                    <Name>foreground</Name>
+                    <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+                </Property>
+                <Property>
+                    <Name>font</Name>
+                    <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+                </Property>
+                <Property>
+                    <Name>enabled</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>focusable</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>visible</Name>
+                    <Value>true</Value>
+                </Property>
+            </Attributes>
+            <Contents>
+                <Container>
+                    <Attributes>
+                        <Property>
+                            <Name>ID</Name>
+                            <Value>w1399706424</Value>
+                        </Property>
+                        <Property>
+                            <Name>Class</Name>
+                            <Value>javax.swing.JViewport</Value>
+                        </Property>
+                        <Property>
+                            <Name>Type</Name>
+                            <Value>SYSTEM INTERACTION</Value>
+                        </Property>
+                        <Property>
+                            <Name>X</Name>
+                            <Value>14</Value>
+                        </Property>
+                        <Property>
+                            <Name>Y</Name>
+                            <Value>106</Value>
+                        </Property>
+                        <Property>
+                            <Name>Title</Name>
+                            <Value>Pos(14,106)</Value>
+                        </Property>
+                        <Property>
+                            <Name>height</Name>
+                            <Value>142</Value>
+                        </Property>
+                        <Property>
+                            <Name>width</Name>
+                            <Value>463</Value>
+                        </Property>
+                        <Property>
+                            <Name>opaque</Name>
+                            <Value>true</Value>
+                        </Property>
+                        <Property>
+                            <Name>background</Name>
+                            <Value>javax.swing.plaf.ColorUIResource[r=255,g=255,b=255]</Value>
+                        </Property>
+                        <Property>
+                            <Name>foreground</Name>
+                            <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+                        </Property>
+                        <Property>
+                            <Name>font</Name>
+                            <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+                        </Property>
+                        <Property>
+                            <Name>enabled</Name>
+                            <Value>true</Value>
+                        </Property>
+                        <Property>
+                            <Name>focusable</Name>
+                            <Value>true</Value>
+                        </Property>
+                        <Property>
+                            <Name>visible</Name>
+                            <Value>true</Value>
+                        </Property>
+                    </Attributes>
+                    <Contents>
+                        <Container>
+                            <Attributes>
+<Property>
+    <Name>ID</Name>
+    <Value>w3704753438</Value>
+</Property>
+<Property>
+    <Name>Class</Name>
+    <Value>sun.swing.FilePane$6</Value>
+</Property>
+<Property>
+    <Name>Type</Name>
+    <Value>SYSTEM INTERACTION</Value>
+</Property>
+<Property>
+    <Name>X</Name>
+    <Value>14</Value>
+</Property>
+<Property>
+    <Name>Y</Name>
+    <Value>106</Value>
+</Property>
+<Property>
+    <Name>ReplayableAction</Name>
+    <Value>edu.umd.cs.guitar.event.JFCSelectionHandler</Value>
+</Property>
+<Property>
+    <Name>Title</Name>
+    <Value>Files Details</Value>
+</Property>
+<Property>
+    <Name>height</Name>
+    <Value>663</Value>
+</Property>
+<Property>
+    <Name>width</Name>
+    <Value>463</Value>
+</Property>
+<Property>
+    <Name>opaque</Name>
+    <Value>true</Value>
+</Property>
+<Property>
+    <Name>background</Name>
+    <Value>javax.swing.plaf.ColorUIResource[r=255,g=255,b=255]</Value>
+</Property>
+<Property>
+    <Name>foreground</Name>
+    <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+</Property>
+<Property>
+    <Name>font</Name>
+    <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+</Property>
+<Property>
+    <Name>enabled</Name>
+    <Value>true</Value>
+</Property>
+<Property>
+    <Name>focusable</Name>
+    <Value>true</Value>
+</Property>
+<Property>
+    <Name>visible</Name>
+    <Value>true</Value>
+</Property>
+                            </Attributes>
+                            <Contents>
+<Widget>
+    <Attributes>
+        <Property>
+            <Name>ID</Name>
+            <Value>w4042519710</Value>
+        </Property>
+        <Property>
+            <Name>Class</Name>
+            <Value>javax.swing.CellRendererPane</Value>
+        </Property>
+        <Property>
+            <Name>Type</Name>
+            <Value>SYSTEM INTERACTION</Value>
+        </Property>
+        <Property>
+            <Name>X</Name>
+            <Value>14</Value>
+        </Property>
+        <Property>
+            <Name>Y</Name>
+            <Value>106</Value>
+        </Property>
+        <Property>
+            <Name>Title</Name>
+            <Value>Pos(14,106)</Value>
+        </Property>
+        <Property>
+            <Name>background</Name>
+            <Value>javax.swing.plaf.ColorUIResource[r=255,g=255,b=255]</Value>
+        </Property>
+        <Property>
+            <Name>foreground</Name>
+            <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+        </Property>
+        <Property>
+            <Name>font</Name>
+            <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+        </Property>
+        <Property>
+            <Name>enabled</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>focusable</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>height</Name>
+            <Value>0</Value>
+        </Property>
+        <Property>
+            <Name>width</Name>
+            <Value>0</Value>
+        </Property>
+        <Property>
+            <Name>visible</Name>
+            <Value>false</Value>
+        </Property>
+        <Property>
+            <Name>opaque</Name>
+            <Value>false</Value>
+        </Property>
+    </Attributes>
+</Widget>
+                            </Contents>
+                        </Container>
+                    </Contents>
+                </Container>
+                <Container>
+                    <Attributes>
+                        <Property>
+                            <Name>ID</Name>
+                            <Value>w2256002008</Value>
+                        </Property>
+                        <Property>
+                            <Name>Class</Name>
+                            <Value>javax.swing.JScrollPane$ScrollBar</Value>
+                        </Property>
+                        <Property>
+                            <Name>Type</Name>
+                            <Value>SYSTEM INTERACTION</Value>
+                        </Property>
+                        <Property>
+                            <Name>X</Name>
+                            <Value>477</Value>
+                        </Property>
+                        <Property>
+                            <Name>Y</Name>
+                            <Value>106</Value>
+                        </Property>
+                        <Property>
+                            <Name>Title</Name>
+                            <Value>Pos(477,106)</Value>
+                        </Property>
+                        <Property>
+                            <Name>height</Name>
+                            <Value>142</Value>
+                        </Property>
+                        <Property>
+                            <Name>width</Name>
+                            <Value>15</Value>
+                        </Property>
+                        <Property>
+                            <Name>opaque</Name>
+                            <Value>true</Value>
+                        </Property>
+                        <Property>
+                            <Name>background</Name>
+                            <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+                        </Property>
+                        <Property>
+                            <Name>foreground</Name>
+                            <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+                        </Property>
+                        <Property>
+                            <Name>font</Name>
+                            <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+                        </Property>
+                        <Property>
+                            <Name>enabled</Name>
+                            <Value>true</Value>
+                        </Property>
+                        <Property>
+                            <Name>focusable</Name>
+                            <Value>true</Value>
+                        </Property>
+                        <Property>
+                            <Name>visible</Name>
+                            <Value>true</Value>
+                        </Property>
+                    </Attributes>
+                    <Contents>
+                        <Widget>
+                            <Attributes>
+<Property>
+    <Name>ID</Name>
+    <Value>w2586549770</Value>
+</Property>
+<Property>
+    <Name>Class</Name>
+    <Value>javax.swing.plaf.metal.MetalScrollButton</Value>
+</Property>
+<Property>
+    <Name>Type</Name>
+    <Value>SYSTEM INTERACTION</Value>
+</Property>
+<Property>
+    <Name>X</Name>
+    <Value>477</Value>
+</Property>
+<Property>
+    <Name>Y</Name>
+    <Value>233</Value>
+</Property>
+<Property>
+    <Name>Title</Name>
+    <Value></Value>
+</Property>
+<Property>
+    <Name>selected</Name>
+    <Value>false</Value>
+</Property>
+<Property>
+    <Name>text</Name>
+    <Value></Value>
+</Property>
+<Property>
+    <Name>height</Name>
+    <Value>15</Value>
+</Property>
+<Property>
+    <Name>width</Name>
+    <Value>15</Value>
+</Property>
+<Property>
+    <Name>opaque</Name>
+    <Value>true</Value>
+</Property>
+<Property>
+    <Name>background</Name>
+    <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+</Property>
+<Property>
+    <Name>foreground</Name>
+    <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+</Property>
+<Property>
+    <Name>font</Name>
+    <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+</Property>
+<Property>
+    <Name>enabled</Name>
+    <Value>true</Value>
+</Property>
+<Property>
+    <Name>focusable</Name>
+    <Value>false</Value>
+</Property>
+<Property>
+    <Name>visible</Name>
+    <Value>true</Value>
+</Property>
+                            </Attributes>
+                        </Widget>
+                        <Widget>
+                            <Attributes>
+<Property>
+    <Name>ID</Name>
+    <Value>w2586549832</Value>
+</Property>
+<Property>
+    <Name>Class</Name>
+    <Value>javax.swing.plaf.metal.MetalScrollButton</Value>
+</Property>
+<Property>
+    <Name>Type</Name>
+    <Value>SYSTEM INTERACTION</Value>
+</Property>
+<Property>
+    <Name>X</Name>
+    <Value>477</Value>
+</Property>
+<Property>
+    <Name>Y</Name>
+    <Value>106</Value>
+</Property>
+<Property>
+    <Name>Title</Name>
+    <Value></Value>
+</Property>
+<Property>
+    <Name>selected</Name>
+    <Value>false</Value>
+</Property>
+<Property>
+    <Name>text</Name>
+    <Value></Value>
+</Property>
+<Property>
+    <Name>height</Name>
+    <Value>15</Value>
+</Property>
+<Property>
+    <Name>width</Name>
+    <Value>15</Value>
+</Property>
+<Property>
+    <Name>opaque</Name>
+    <Value>true</Value>
+</Property>
+<Property>
+    <Name>background</Name>
+    <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+</Property>
+<Property>
+    <Name>foreground</Name>
+    <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+</Property>
+<Property>
+    <Name>font</Name>
+    <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+</Property>
+<Property>
+    <Name>enabled</Name>
+    <Value>true</Value>
+</Property>
+<Property>
+    <Name>focusable</Name>
+    <Value>false</Value>
+</Property>
+<Property>
+    <Name>visible</Name>
+    <Value>true</Value>
+</Property>
+                            </Attributes>
+                        </Widget>
+                    </Contents>
+                </Container>
+                <Container>
+                    <Attributes>
+                        <Property>
+                            <Name>ID</Name>
+                            <Value>w2256002070</Value>
+                        </Property>
+                        <Property>
+                            <Name>Class</Name>
+                            <Value>javax.swing.JScrollPane$ScrollBar</Value>
+                        </Property>
+                        <Property>
+                            <Name>Type</Name>
+                            <Value>SYSTEM INTERACTION</Value>
+                        </Property>
+                        <Property>
+                            <Name>X</Name>
+                            <Value>13</Value>
+                        </Property>
+                        <Property>
+                            <Name>Y</Name>
+                            <Value>86</Value>
+                        </Property>
+                        <Property>
+                            <Name>Title</Name>
+                            <Value>Pos(13,86)</Value>
+                        </Property>
+                        <Property>
+                            <Name>height</Name>
+                            <Value>0</Value>
+                        </Property>
+                        <Property>
+                            <Name>width</Name>
+                            <Value>0</Value>
+                        </Property>
+                        <Property>
+                            <Name>opaque</Name>
+                            <Value>true</Value>
+                        </Property>
+                        <Property>
+                            <Name>background</Name>
+                            <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+                        </Property>
+                        <Property>
+                            <Name>foreground</Name>
+                            <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+                        </Property>
+                        <Property>
+                            <Name>font</Name>
+                            <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+                        </Property>
+                        <Property>
+                            <Name>enabled</Name>
+                            <Value>true</Value>
+                        </Property>
+                        <Property>
+                            <Name>focusable</Name>
+                            <Value>true</Value>
+                        </Property>
+                        <Property>
+                            <Name>visible</Name>
+                            <Value>false</Value>
+                        </Property>
+                    </Attributes>
+                    <Contents>
+                        <Widget>
+                            <Attributes>
+<Property>
+    <Name>ID</Name>
+    <Value>w2586551692</Value>
+</Property>
+<Property>
+    <Name>Class</Name>
+    <Value>javax.swing.plaf.metal.MetalScrollButton</Value>
+</Property>
+<Property>
+    <Name>Type</Name>
+    <Value>SYSTEM INTERACTION</Value>
+</Property>
+<Property>
+    <Name>X</Name>
+    <Value>13</Value>
+</Property>
+<Property>
+    <Name>Y</Name>
+    <Value>86</Value>
+</Property>
+<Property>
+    <Name>Title</Name>
+    <Value></Value>
+</Property>
+<Property>
+    <Name>selected</Name>
+    <Value>false</Value>
+</Property>
+<Property>
+    <Name>text</Name>
+    <Value></Value>
+</Property>
+<Property>
+    <Name>height</Name>
+    <Value>0</Value>
+</Property>
+<Property>
+    <Name>width</Name>
+    <Value>0</Value>
+</Property>
+<Property>
+    <Name>opaque</Name>
+    <Value>true</Value>
+</Property>
+<Property>
+    <Name>background</Name>
+    <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+</Property>
+<Property>
+    <Name>foreground</Name>
+    <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+</Property>
+<Property>
+    <Name>font</Name>
+    <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+</Property>
+<Property>
+    <Name>enabled</Name>
+    <Value>true</Value>
+</Property>
+<Property>
+    <Name>focusable</Name>
+    <Value>false</Value>
+</Property>
+<Property>
+    <Name>visible</Name>
+    <Value>true</Value>
+</Property>
+                            </Attributes>
+                        </Widget>
+                        <Widget>
+                            <Attributes>
+<Property>
+    <Name>ID</Name>
+    <Value>w2586551754</Value>
+</Property>
+<Property>
+    <Name>Class</Name>
+    <Value>javax.swing.plaf.metal.MetalScrollButton</Value>
+</Property>
+<Property>
+    <Name>Type</Name>
+    <Value>SYSTEM INTERACTION</Value>
+</Property>
+<Property>
+    <Name>X</Name>
+    <Value>13</Value>
+</Property>
+<Property>
+    <Name>Y</Name>
+    <Value>86</Value>
+</Property>
+<Property>
+    <Name>Title</Name>
+    <Value></Value>
+</Property>
+<Property>
+    <Name>selected</Name>
+    <Value>false</Value>
+</Property>
+<Property>
+    <Name>text</Name>
+    <Value></Value>
+</Property>
+<Property>
+    <Name>height</Name>
+    <Value>0</Value>
+</Property>
+<Property>
+    <Name>width</Name>
+    <Value>0</Value>
+</Property>
+<Property>
+    <Name>opaque</Name>
+    <Value>true</Value>
+</Property>
+<Property>
+    <Name>background</Name>
+    <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+</Property>
+<Property>
+    <Name>foreground</Name>
+    <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+</Property>
+<Property>
+    <Name>font</Name>
+    <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+</Property>
+<Property>
+    <Name>enabled</Name>
+    <Value>true</Value>
+</Property>
+<Property>
+    <Name>focusable</Name>
+    <Value>false</Value>
+</Property>
+<Property>
+    <Name>visible</Name>
+    <Value>true</Value>
+</Property>
+                            </Attributes>
+                        </Widget>
+                    </Contents>
+                </Container>
+                <Container>
+                    <Attributes>
+                        <Property>
+                            <Name>ID</Name>
+                            <Value>w1399706610</Value>
+                        </Property>
+                        <Property>
+                            <Name>Class</Name>
+                            <Value>javax.swing.JViewport</Value>
+                        </Property>
+                        <Property>
+                            <Name>Type</Name>
+                            <Value>SYSTEM INTERACTION</Value>
+                        </Property>
+                        <Property>
+                            <Name>X</Name>
+                            <Value>14</Value>
+                        </Property>
+                        <Property>
+                            <Name>Y</Name>
+                            <Value>87</Value>
+                        </Property>
+                        <Property>
+                            <Name>Title</Name>
+                            <Value>Pos(14,87)</Value>
+                        </Property>
+                        <Property>
+                            <Name>height</Name>
+                            <Value>19</Value>
+                        </Property>
+                        <Property>
+                            <Name>width</Name>
+                            <Value>463</Value>
+                        </Property>
+                        <Property>
+                            <Name>opaque</Name>
+                            <Value>true</Value>
+                        </Property>
+                        <Property>
+                            <Name>background</Name>
+                            <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+                        </Property>
+                        <Property>
+                            <Name>foreground</Name>
+                            <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+                        </Property>
+                        <Property>
+                            <Name>font</Name>
+                            <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+                        </Property>
+                        <Property>
+                            <Name>enabled</Name>
+                            <Value>true</Value>
+                        </Property>
+                        <Property>
+                            <Name>focusable</Name>
+                            <Value>true</Value>
+                        </Property>
+                        <Property>
+                            <Name>visible</Name>
+                            <Value>true</Value>
+                        </Property>
+                    </Attributes>
+                    <Contents>
+                        <Container>
+                            <Attributes>
+<Property>
+    <Name>ID</Name>
+    <Value>w1355948504</Value>
+</Property>
+<Property>
+    <Name>Class</Name>
+    <Value>javax.swing.table.JTableHeader</Value>
+</Property>
+<Property>
+    <Name>Type</Name>
+    <Value>SYSTEM INTERACTION</Value>
+</Property>
+<Property>
+    <Name>X</Name>
+    <Value>14</Value>
+</Property>
+<Property>
+    <Name>Y</Name>
+    <Value>87</Value>
+</Property>
+<Property>
+    <Name>Title</Name>
+    <Value>Pos(14,87)</Value>
+</Property>
+<Property>
+    <Name>height</Name>
+    <Value>19</Value>
+</Property>
+<Property>
+    <Name>width</Name>
+    <Value>463</Value>
+</Property>
+<Property>
+    <Name>opaque</Name>
+    <Value>true</Value>
+</Property>
+<Property>
+    <Name>background</Name>
+    <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+</Property>
+<Property>
+    <Name>foreground</Name>
+    <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+</Property>
+<Property>
+    <Name>font</Name>
+    <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+</Property>
+<Property>
+    <Name>enabled</Name>
+    <Value>true</Value>
+</Property>
+<Property>
+    <Name>focusable</Name>
+    <Value>true</Value>
+</Property>
+<Property>
+    <Name>visible</Name>
+    <Value>true</Value>
+</Property>
+                            </Attributes>
+                            <Contents>
+<Widget>
+    <Attributes>
+        <Property>
+            <Name>ID</Name>
+            <Value>w1946021008</Value>
+        </Property>
+        <Property>
+            <Name>Class</Name>
+            <Value>javax.swing.CellRendererPane</Value>
+        </Property>
+        <Property>
+            <Name>Type</Name>
+            <Value>SYSTEM INTERACTION</Value>
+        </Property>
+        <Property>
+            <Name>X</Name>
+            <Value>14</Value>
+        </Property>
+        <Property>
+            <Name>Y</Name>
+            <Value>87</Value>
+        </Property>
+        <Property>
+            <Name>Title</Name>
+            <Value>Pos(14,87)</Value>
+        </Property>
+        <Property>
+            <Name>background</Name>
+            <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+        </Property>
+        <Property>
+            <Name>foreground</Name>
+            <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+        </Property>
+        <Property>
+            <Name>font</Name>
+            <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+        </Property>
+        <Property>
+            <Name>enabled</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>focusable</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>height</Name>
+            <Value>0</Value>
+        </Property>
+        <Property>
+            <Name>width</Name>
+            <Value>0</Value>
+        </Property>
+        <Property>
+            <Name>visible</Name>
+            <Value>false</Value>
+        </Property>
+        <Property>
+            <Name>opaque</Name>
+            <Value>false</Value>
+        </Property>
+    </Attributes>
+</Widget>
+                            </Contents>
+                        </Container>
+                    </Contents>
+                </Container>
+            </Contents>
+        </Container>
+    </Contents>
+</Container>
+                            </Contents>
+                        </Container>
+                        <Container>
+                            <Attributes>
+<Property>
+    <Name>ID</Name>
+    <Value>w1762083222</Value>
+</Property>
+<Property>
+    <Name>Class</Name>
+    <Value>javax.swing.JPanel</Value>
+</Property>
+<Property>
+    <Name>Type</Name>
+    <Value>SYSTEM INTERACTION</Value>
+</Property>
+<Property>
+    <Name>X</Name>
+    <Value>13</Value>
+</Property>
+<Property>
+    <Name>Y</Name>
+    <Value>261</Value>
+</Property>
+<Property>
+    <Name>Title</Name>
+    <Value>Pos(13,261)</Value>
+</Property>
+<Property>
+    <Name>height</Name>
+    <Value>90</Value>
+</Property>
+<Property>
+    <Name>width</Name>
+    <Value>481</Value>
+</Property>
+<Property>
+    <Name>opaque</Name>
+    <Value>true</Value>
+</Property>
+<Property>
+    <Name>background</Name>
+    <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+</Property>
+<Property>
+    <Name>foreground</Name>
+    <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+</Property>
+<Property>
+    <Name>font</Name>
+    <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+</Property>
+<Property>
+    <Name>enabled</Name>
+    <Value>true</Value>
+</Property>
+<Property>
+    <Name>focusable</Name>
+    <Value>true</Value>
+</Property>
+<Property>
+    <Name>visible</Name>
+    <Value>true</Value>
+</Property>
+                            </Attributes>
+                            <Contents>
+<Container>
+    <Attributes>
+        <Property>
+            <Name>ID</Name>
+            <Value>w287180270</Value>
+        </Property>
+        <Property>
+            <Name>Class</Name>
+            <Value>javax.swing.JPanel</Value>
+        </Property>
+        <Property>
+            <Name>Type</Name>
+            <Value>SYSTEM INTERACTION</Value>
+        </Property>
+        <Property>
+            <Name>X</Name>
+            <Value>13</Value>
+        </Property>
+        <Property>
+            <Name>Y</Name>
+            <Value>261</Value>
+        </Property>
+        <Property>
+            <Name>Title</Name>
+            <Value>Pos(13,261)</Value>
+        </Property>
+        <Property>
+            <Name>height</Name>
+            <Value>19</Value>
+        </Property>
+        <Property>
+            <Name>width</Name>
+            <Value>481</Value>
+        </Property>
+        <Property>
+            <Name>opaque</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>background</Name>
+            <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+        </Property>
+        <Property>
+            <Name>foreground</Name>
+            <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+        </Property>
+        <Property>
+            <Name>font</Name>
+            <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+        </Property>
+        <Property>
+            <Name>enabled</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>focusable</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>visible</Name>
+            <Value>true</Value>
+        </Property>
+    </Attributes>
+    <Contents>
+        <Widget>
+            <Attributes>
+                <Property>
+                    <Name>ID</Name>
+                    <Value>w4199368308</Value>
+                </Property>
+                <Property>
+                    <Name>Class</Name>
+                    <Value>javax.swing.plaf.metal.MetalFileChooserUI$AlignedLabel</Value>
+                </Property>
+                <Property>
+                    <Name>Type</Name>
+                    <Value>SYSTEM INTERACTION</Value>
+                </Property>
+                <Property>
+                    <Name>X</Name>
+                    <Value>13</Value>
+                </Property>
+                <Property>
+                    <Name>Y</Name>
+                    <Value>263</Value>
+                </Property>
+                <Property>
+                    <Name>Title</Name>
+                    <Value>File Name:</Value>
+                </Property>
+                <Property>
+                    <Name>text</Name>
+                    <Value>File Name:</Value>
+                </Property>
+                <Property>
+                    <Name>height</Name>
+                    <Value>15</Value>
+                </Property>
+                <Property>
+                    <Name>width</Name>
+                    <Value>92</Value>
+                </Property>
+                <Property>
+                    <Name>opaque</Name>
+                    <Value>false</Value>
+                </Property>
+                <Property>
+                    <Name>background</Name>
+                    <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+                </Property>
+                <Property>
+                    <Name>foreground</Name>
+                    <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+                </Property>
+                <Property>
+                    <Name>font</Name>
+                    <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+                </Property>
+                <Property>
+                    <Name>enabled</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>focusable</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>visible</Name>
+                    <Value>true</Value>
+                </Property>
+            </Attributes>
+        </Widget>
+        <Widget>
+            <Attributes>
+                <Property>
+                    <Name>ID</Name>
+                    <Value>w2336518366</Value>
+                </Property>
+                <Property>
+                    <Name>Class</Name>
+                    <Value>javax.swing.plaf.metal.MetalFileChooserUI$3</Value>
+                </Property>
+                <Property>
+                    <Name>Type</Name>
+                    <Value>SYSTEM INTERACTION</Value>
+                </Property>
+                <Property>
+                    <Name>X</Name>
+                    <Value>105</Value>
+                </Property>
+                <Property>
+                    <Name>Y</Name>
+                    <Value>261</Value>
+                </Property>
+                <Property>
+                    <Name>ReplayableAction</Name>
+                    <Value>edu.umd.cs.guitar.event.JFCEditableTextHandler</Value>
+                </Property>
+                <Property>
+                    <Name>Title</Name>
+                    <Value>File Name:</Value>
+                </Property>
+                <Property>
+                    <Name>editable</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>text</Name>
+                    <Value></Value>
+                </Property>
+                <Property>
+                    <Name>height</Name>
+                    <Value>19</Value>
+                </Property>
+                <Property>
+                    <Name>width</Name>
+                    <Value>389</Value>
+                </Property>
+                <Property>
+                    <Name>opaque</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>background</Name>
+                    <Value>javax.swing.plaf.ColorUIResource[r=255,g=255,b=255]</Value>
+                </Property>
+                <Property>
+                    <Name>foreground</Name>
+                    <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+                </Property>
+                <Property>
+                    <Name>font</Name>
+                    <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+                </Property>
+                <Property>
+                    <Name>enabled</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>focusable</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>visible</Name>
+                    <Value>true</Value>
+                </Property>
+            </Attributes>
+        </Widget>
+    </Contents>
+</Container>
+<Widget>
+    <Attributes>
+        <Property>
+            <Name>ID</Name>
+            <Value>w1825214838</Value>
+        </Property>
+        <Property>
+            <Name>Class</Name>
+            <Value>javax.swing.Box$Filler</Value>
+        </Property>
+        <Property>
+            <Name>Type</Name>
+            <Value>SYSTEM INTERACTION</Value>
+        </Property>
+        <Property>
+            <Name>X</Name>
+            <Value>251</Value>
+        </Property>
+        <Property>
+            <Name>Y</Name>
+            <Value>280</Value>
+        </Property>
+        <Property>
+            <Name>Title</Name>
+            <Value>Pos(251,280)</Value>
+        </Property>
+        <Property>
+            <Name>height</Name>
+            <Value>5</Value>
+        </Property>
+        <Property>
+            <Name>width</Name>
+            <Value>1</Value>
+        </Property>
+        <Property>
+            <Name>opaque</Name>
+            <Value>false</Value>
+        </Property>
+        <Property>
+            <Name>background</Name>
+            <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+        </Property>
+        <Property>
+            <Name>foreground</Name>
+            <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+        </Property>
+        <Property>
+            <Name>font</Name>
+            <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+        </Property>
+        <Property>
+            <Name>enabled</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>focusable</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>visible</Name>
+            <Value>true</Value>
+        </Property>
+    </Attributes>
+</Widget>
+<Container>
+    <Attributes>
+        <Property>
+            <Name>ID</Name>
+            <Value>w287180394</Value>
+        </Property>
+        <Property>
+            <Name>Class</Name>
+            <Value>javax.swing.JPanel</Value>
+        </Property>
+        <Property>
+            <Name>Type</Name>
+            <Value>SYSTEM INTERACTION</Value>
+        </Property>
+        <Property>
+            <Name>X</Name>
+            <Value>13</Value>
+        </Property>
+        <Property>
+            <Name>Y</Name>
+            <Value>285</Value>
+        </Property>
+        <Property>
+            <Name>Title</Name>
+            <Value>Pos(13,285)</Value>
+        </Property>
+        <Property>
+            <Name>height</Name>
+            <Value>24</Value>
+        </Property>
+        <Property>
+            <Name>width</Name>
+            <Value>481</Value>
+        </Property>
+        <Property>
+            <Name>opaque</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>background</Name>
+            <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+        </Property>
+        <Property>
+            <Name>foreground</Name>
+            <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+        </Property>
+        <Property>
+            <Name>font</Name>
+            <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+        </Property>
+        <Property>
+            <Name>enabled</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>focusable</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>visible</Name>
+            <Value>true</Value>
+        </Property>
+    </Attributes>
+    <Contents>
+        <Widget>
+            <Attributes>
+                <Property>
+                    <Name>ID</Name>
+                    <Value>w2713954508</Value>
+                </Property>
+                <Property>
+                    <Name>Class</Name>
+                    <Value>javax.swing.plaf.metal.MetalFileChooserUI$AlignedLabel</Value>
+                </Property>
+                <Property>
+                    <Name>Type</Name>
+                    <Value>SYSTEM INTERACTION</Value>
+                </Property>
+                <Property>
+                    <Name>X</Name>
+                    <Value>13</Value>
+                </Property>
+                <Property>
+                    <Name>Y</Name>
+                    <Value>290</Value>
+                </Property>
+                <Property>
+                    <Name>Title</Name>
+                    <Value>Files of Type:</Value>
+                </Property>
+                <Property>
+                    <Name>text</Name>
+                    <Value>Files of Type:</Value>
+                </Property>
+                <Property>
+                    <Name>height</Name>
+                    <Value>15</Value>
+                </Property>
+                <Property>
+                    <Name>width</Name>
+                    <Value>92</Value>
+                </Property>
+                <Property>
+                    <Name>opaque</Name>
+                    <Value>false</Value>
+                </Property>
+                <Property>
+                    <Name>background</Name>
+                    <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+                </Property>
+                <Property>
+                    <Name>foreground</Name>
+                    <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+                </Property>
+                <Property>
+                    <Name>font</Name>
+                    <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+                </Property>
+                <Property>
+                    <Name>enabled</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>focusable</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>visible</Name>
+                    <Value>true</Value>
+                </Property>
+            </Attributes>
+        </Widget>
+        <Container>
+            <Attributes>
+                <Property>
+                    <Name>ID</Name>
+                    <Value>w2277619330</Value>
+                </Property>
+                <Property>
+                    <Name>Class</Name>
+                    <Value>javax.swing.JComboBox</Value>
+                </Property>
+                <Property>
+                    <Name>Type</Name>
+                    <Value>SYSTEM INTERACTION</Value>
+                </Property>
+                <Property>
+                    <Name>X</Name>
+                    <Value>105</Value>
+                </Property>
+                <Property>
+                    <Name>Y</Name>
+                    <Value>285</Value>
+                </Property>
+                <Property>
+                    <Name>ReplayableAction</Name>
+                    <Value>edu.umd.cs.guitar.event.JFCActionHandler</Value>
+                </Property>
+                <Property>
+                    <Name>Title</Name>
+                    <Value>javax/swing/plaf/metal/MetalFileChooserUI.filterComboBox:Ljavax/swing/JComboBox;</Value>
+                </Property>
+                <Property>
+                    <Name>editable</Name>
+                    <Value>false</Value>
+                </Property>
+                <Property>
+                    <Name>height</Name>
+                    <Value>24</Value>
+                </Property>
+                <Property>
+                    <Name>width</Name>
+                    <Value>389</Value>
+                </Property>
+                <Property>
+                    <Name>opaque</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>background</Name>
+                    <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+                </Property>
+                <Property>
+                    <Name>foreground</Name>
+                    <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+                </Property>
+                <Property>
+                    <Name>font</Name>
+                    <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+                </Property>
+                <Property>
+                    <Name>enabled</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>focusable</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>visible</Name>
+                    <Value>true</Value>
+                </Property>
+            </Attributes>
+            <Contents>
+                <Widget>
+                    <Attributes>
+                        <Property>
+                            <Name>ID</Name>
+                            <Value>w1825061718</Value>
+                        </Property>
+                        <Property>
+                            <Name>Class</Name>
+                            <Value>javax.swing.plaf.metal.MetalComboBoxButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>Type</Name>
+                            <Value>SYSTEM INTERACTION</Value>
+                        </Property>
+                        <Property>
+                            <Name>X</Name>
+                            <Value>474</Value>
+                        </Property>
+                        <Property>
+                            <Name>Y</Name>
+                            <Value>285</Value>
+                        </Property>
+                        <Property>
+                            <Name>Title</Name>
+                            <Value></Value>
+                        </Property>
+                        <Property>
+                            <Name>selected</Name>
+                            <Value>false</Value>
+                        </Property>
+                        <Property>
+                            <Name>text</Name>
+                            <Value></Value>
+                        </Property>
+                        <Property>
+                            <Name>height</Name>
+                            <Value>24</Value>
+                        </Property>
+                        <Property>
+                            <Name>width</Name>
+                            <Value>20</Value>
+                        </Property>
+                        <Property>
+                            <Name>opaque</Name>
+                            <Value>true</Value>
+                        </Property>
+                        <Property>
+                            <Name>background</Name>
+                            <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+                        </Property>
+                        <Property>
+                            <Name>foreground</Name>
+                            <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+                        </Property>
+                        <Property>
+                            <Name>font</Name>
+                            <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+                        </Property>
+                        <Property>
+                            <Name>enabled</Name>
+                            <Value>true</Value>
+                        </Property>
+                        <Property>
+                            <Name>focusable</Name>
+                            <Value>false</Value>
+                        </Property>
+                        <Property>
+                            <Name>visible</Name>
+                            <Value>true</Value>
+                        </Property>
+                    </Attributes>
+                </Widget>
+                <Widget>
+                    <Attributes>
+                        <Property>
+                            <Name>ID</Name>
+                            <Value>w1032586832</Value>
+                        </Property>
+                        <Property>
+                            <Name>Class</Name>
+                            <Value>javax.swing.CellRendererPane</Value>
+                        </Property>
+                        <Property>
+                            <Name>Type</Name>
+                            <Value>SYSTEM INTERACTION</Value>
+                        </Property>
+                        <Property>
+                            <Name>X</Name>
+                            <Value>105</Value>
+                        </Property>
+                        <Property>
+                            <Name>Y</Name>
+                            <Value>285</Value>
+                        </Property>
+                        <Property>
+                            <Name>Title</Name>
+                            <Value>Pos(105,285)</Value>
+                        </Property>
+                        <Property>
+                            <Name>background</Name>
+                            <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+                        </Property>
+                        <Property>
+                            <Name>foreground</Name>
+                            <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+                        </Property>
+                        <Property>
+                            <Name>font</Name>
+                            <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+                        </Property>
+                        <Property>
+                            <Name>enabled</Name>
+                            <Value>true</Value>
+                        </Property>
+                        <Property>
+                            <Name>focusable</Name>
+                            <Value>true</Value>
+                        </Property>
+                        <Property>
+                            <Name>height</Name>
+                            <Value>0</Value>
+                        </Property>
+                        <Property>
+                            <Name>width</Name>
+                            <Value>0</Value>
+                        </Property>
+                        <Property>
+                            <Name>visible</Name>
+                            <Value>false</Value>
+                        </Property>
+                        <Property>
+                            <Name>opaque</Name>
+                            <Value>false</Value>
+                        </Property>
+                    </Attributes>
+                </Widget>
+            </Contents>
+        </Container>
+    </Contents>
+</Container>
+<Container>
+    <Attributes>
+        <Property>
+            <Name>ID</Name>
+            <Value>w287180456</Value>
+        </Property>
+        <Property>
+            <Name>Class</Name>
+            <Value>javax.swing.JPanel</Value>
+        </Property>
+        <Property>
+            <Name>Type</Name>
+            <Value>SYSTEM INTERACTION</Value>
+        </Property>
+        <Property>
+            <Name>X</Name>
+            <Value>13</Value>
+        </Property>
+        <Property>
+            <Name>Y</Name>
+            <Value>309</Value>
+        </Property>
+        <Property>
+            <Name>Title</Name>
+            <Value>Pos(13,309)</Value>
+        </Property>
+        <Property>
+            <Name>height</Name>
+            <Value>42</Value>
+        </Property>
+        <Property>
+            <Name>width</Name>
+            <Value>481</Value>
+        </Property>
+        <Property>
+            <Name>opaque</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>background</Name>
+            <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+        </Property>
+        <Property>
+            <Name>foreground</Name>
+            <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+        </Property>
+        <Property>
+            <Name>font</Name>
+            <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+        </Property>
+        <Property>
+            <Name>enabled</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>focusable</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>visible</Name>
+            <Value>true</Value>
+        </Property>
+    </Attributes>
+    <Contents>
+        <Widget>
+            <Attributes>
+                <Property>
+                    <Name>ID</Name>
+                    <Value>w1436697942</Value>
+                </Property>
+                <Property>
+                    <Name>Class</Name>
+                    <Value>javax.swing.JButton</Value>
+                </Property>
+                <Property>
+                    <Name>Type</Name>
+                    <Value>SYSTEM INTERACTION</Value>
+                </Property>
+                <Property>
+                    <Name>X</Name>
+                    <Value>337</Value>
+                </Property>
+                <Property>
+                    <Name>Y</Name>
+                    <Value>326</Value>
+                </Property>
+                <Property>
+                    <Name>ReplayableAction</Name>
+                    <Value>edu.umd.cs.guitar.event.JFCActionHandler</Value>
+                </Property>
+                <Property>
+                    <Name>Title</Name>
+                    <Value>Open</Value>
+                </Property>
+                <Property>
+                    <Name>ActionListeners</Name>
+                    <Value>javax.swing.plaf.basic.BasicFileChooserUI$ApproveSelectionAction</Value>
+                </Property>
+                <Property>
+                    <Name>selected</Name>
+                    <Value>false</Value>
+                </Property>
+                <Property>
+                    <Name>text</Name>
+                    <Value>Open</Value>
+                </Property>
+                <Property>
+                    <Name>height</Name>
+                    <Value>25</Value>
+                </Property>
+                <Property>
+                    <Name>width</Name>
+                    <Value>76</Value>
+                </Property>
+                <Property>
+                    <Name>opaque</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>background</Name>
+                    <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+                </Property>
+                <Property>
+                    <Name>foreground</Name>
+                    <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+                </Property>
+                <Property>
+                    <Name>font</Name>
+                    <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+                </Property>
+                <Property>
+                    <Name>enabled</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>focusable</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>visible</Name>
+                    <Value>true</Value>
+                </Property>
+            </Attributes>
+        </Widget>
+        <Widget>
+            <Attributes>
+                <Property>
+                    <Name>ID</Name>
+                    <Value>w881346132</Value>
+                </Property>
+                <Property>
+                    <Name>Class</Name>
+                    <Value>javax.swing.JButton</Value>
+                </Property>
+                <Property>
+                    <Name>Type</Name>
+                    <Value>SYSTEM INTERACTION</Value>
+                </Property>
+                <Property>
+                    <Name>X</Name>
+                    <Value>418</Value>
+                </Property>
+                <Property>
+                    <Name>Y</Name>
+                    <Value>326</Value>
+                </Property>
+                <Property>
+                    <Name>ReplayableAction</Name>
+                    <Value>edu.umd.cs.guitar.event.JFCActionHandler</Value>
+                </Property>
+                <Property>
+                    <Name>Title</Name>
+                    <Value>Cancel</Value>
+                </Property>
+                <Property>
+                    <Name>ActionListeners</Name>
+                    <Value>javax.swing.plaf.basic.BasicFileChooserUI$CancelSelectionAction</Value>
+                </Property>
+                <Property>
+                    <Name>selected</Name>
+                    <Value>false</Value>
+                </Property>
+                <Property>
+                    <Name>text</Name>
+                    <Value>Cancel</Value>
+                </Property>
+                <Property>
+                    <Name>height</Name>
+                    <Value>25</Value>
+                </Property>
+                <Property>
+                    <Name>width</Name>
+                    <Value>76</Value>
+                </Property>
+                <Property>
+                    <Name>opaque</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>background</Name>
+                    <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+                </Property>
+                <Property>
+                    <Name>foreground</Name>
+                    <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+                </Property>
+                <Property>
+                    <Name>font</Name>
+                    <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+                </Property>
+                <Property>
+                    <Name>enabled</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>focusable</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>visible</Name>
+                    <Value>true</Value>
+                </Property>
+            </Attributes>
+        </Widget>
+    </Contents>
+</Container>
+                            </Contents>
+                        </Container>
+                    </Contents>
+                </Container>
+            </Contents>
+        </Container>
+    </Contents>
+</Container>
+                            </Contents>
+                        </Container>
+                    </Contents>
+                </Container>
+            </Contents>
+        </Container>
+    </GUI>
+    <GUI>
+        <Window>
+            <Attributes>
+                <Property>
+                    <Name>Title</Name>
+                    <Value>HashTest</Value>
+                </Property>
+                <Property>
+                    <Name>Modal</Name>
+                    <Value>false</Value>
+                </Property>
+                <Property>
+                    <Name>Rootwindow</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>resizable</Name>
+                    <Value>false</Value>
+                </Property>
+                <Property>
+                    <Name>background</Name>
+                    <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+                </Property>
+                <Property>
+                    <Name>locale</Name>
+                    <Value>en_US</Value>
+                </Property>
+                <Property>
+                    <Name>opaque</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>insets</Name>
+                    <Value>java.awt.Insets[top=36,left=1,bottom=1,right=1]</Value>
+                </Property>
+                <Property>
+                    <Name>layout</Name>
+                    <Value>java.awt.BorderLayout[hgap=0,vgap=0]</Value>
+                </Property>
+                <Property>
+                    <Name>foreground</Name>
+                    <Value>java.awt.SystemColor[i=9]</Value>
+                </Property>
+                <Property>
+                    <Name>font</Name>
+                    <Value>java.awt.Font[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+                </Property>
+                <Property>
+                    <Name>x</Name>
+                    <Value>0</Value>
+                </Property>
+                <Property>
+                    <Name>y</Name>
+                    <Value>27</Value>
+                </Property>
+                <Property>
+                    <Name>height</Name>
+                    <Value>350</Value>
+                </Property>
+                <Property>
+                    <Name>width</Name>
+                    <Value>950</Value>
+                </Property>
+                <Property>
+                    <Name>visible</Name>
+                    <Value>true</Value>
+                </Property>
+            </Attributes>
+        </Window>
+        <Container>
+            <Contents>
+                <Container>
+                    <Attributes>
+                        <Property>
+                            <Name>ID</Name>
+                            <Value>w425676224</Value>
+                        </Property>
+                        <Property>
+                            <Name>Class</Name>
+                            <Value>javax.swing.JFrame</Value>
+                        </Property>
+                        <Property>
+                            <Name>Type</Name>
+                            <Value>SYSTEM INTERACTION</Value>
+                        </Property>
+                        <Property>
+                            <Name>X</Name>
+                            <Value>0</Value>
+                        </Property>
+                        <Property>
+                            <Name>Y</Name>
+                            <Value>0</Value>
+                        </Property>
+                        <Property>
+                            <Name>Title</Name>
+                            <Value>HashTest</Value>
+                        </Property>
+                        <Property>
+                            <Name>background</Name>
+                            <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+                        </Property>
+                        <Property>
+                            <Name>opaque</Name>
+                            <Value>true</Value>
+                        </Property>
+                        <Property>
+                            <Name>foreground</Name>
+                            <Value>java.awt.SystemColor[i=9]</Value>
+                        </Property>
+                        <Property>
+                            <Name>font</Name>
+                            <Value>java.awt.Font[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+                        </Property>
+                        <Property>
+                            <Name>enabled</Name>
+                            <Value>true</Value>
+                        </Property>
+                        <Property>
+                            <Name>focusable</Name>
+                            <Value>true</Value>
+                        </Property>
+                        <Property>
+                            <Name>height</Name>
+                            <Value>350</Value>
+                        </Property>
+                        <Property>
+                            <Name>width</Name>
+                            <Value>950</Value>
+                        </Property>
+                        <Property>
+                            <Name>visible</Name>
+                            <Value>true</Value>
+                        </Property>
+                    </Attributes>
+                    <Contents>
+                        <Container>
+                            <Attributes>
+<Property>
+    <Name>ID</Name>
+    <Value>w3270446928</Value>
+</Property>
+<Property>
+    <Name>Class</Name>
+    <Value>javax.swing.JRootPane</Value>
+</Property>
+<Property>
+    <Name>Type</Name>
+    <Value>SYSTEM INTERACTION</Value>
+</Property>
+<Property>
+    <Name>X</Name>
+    <Value>1</Value>
+</Property>
+<Property>
+    <Name>Y</Name>
+    <Value>36</Value>
+</Property>
+<Property>
+    <Name>Title</Name>
+    <Value>Pos(1,36)</Value>
+</Property>
+<Property>
+    <Name>height</Name>
+    <Value>313</Value>
+</Property>
+<Property>
+    <Name>width</Name>
+    <Value>948</Value>
+</Property>
+<Property>
+    <Name>opaque</Name>
+    <Value>true</Value>
+</Property>
+<Property>
+    <Name>background</Name>
+    <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+</Property>
+<Property>
+    <Name>foreground</Name>
+    <Value>java.awt.SystemColor[i=9]</Value>
+</Property>
+<Property>
+    <Name>font</Name>
+    <Value>java.awt.Font[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+</Property>
+<Property>
+    <Name>enabled</Name>
+    <Value>true</Value>
+</Property>
+<Property>
+    <Name>focusable</Name>
+    <Value>true</Value>
+</Property>
+<Property>
+    <Name>visible</Name>
+    <Value>true</Value>
+</Property>
+                            </Attributes>
+                            <Contents>
+<Widget>
+    <Attributes>
+        <Property>
+            <Name>ID</Name>
+            <Value>w2915003906</Value>
+        </Property>
+        <Property>
+            <Name>Class</Name>
+            <Value>javax.swing.JPanel</Value>
+        </Property>
+        <Property>
+            <Name>Type</Name>
+            <Value>SYSTEM INTERACTION</Value>
+        </Property>
+        <Property>
+            <Name>X</Name>
+            <Value>1</Value>
+        </Property>
+        <Property>
+            <Name>Y</Name>
+            <Value>36</Value>
+        </Property>
+        <Property>
+            <Name>Title</Name>
+            <Value>null.glassPane</Value>
+        </Property>
+        <Property>
+            <Name>height</Name>
+            <Value>313</Value>
+        </Property>
+        <Property>
+            <Name>width</Name>
+            <Value>948</Value>
+        </Property>
+        <Property>
+            <Name>opaque</Name>
+            <Value>false</Value>
+        </Property>
+        <Property>
+            <Name>background</Name>
+            <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+        </Property>
+        <Property>
+            <Name>foreground</Name>
+            <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+        </Property>
+        <Property>
+            <Name>font</Name>
+            <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+        </Property>
+        <Property>
+            <Name>enabled</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>focusable</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>visible</Name>
+            <Value>false</Value>
+        </Property>
+    </Attributes>
+</Widget>
+<Container>
+    <Attributes>
+        <Property>
+            <Name>ID</Name>
+            <Value>w4141965224</Value>
+        </Property>
+        <Property>
+            <Name>Class</Name>
+            <Value>javax.swing.JLayeredPane</Value>
+        </Property>
+        <Property>
+            <Name>Type</Name>
+            <Value>SYSTEM INTERACTION</Value>
+        </Property>
+        <Property>
+            <Name>X</Name>
+            <Value>1</Value>
+        </Property>
+        <Property>
+            <Name>Y</Name>
+            <Value>36</Value>
+        </Property>
+        <Property>
+            <Name>Title</Name>
+            <Value>null.layeredPane</Value>
+        </Property>
+        <Property>
+            <Name>height</Name>
+            <Value>313</Value>
+        </Property>
+        <Property>
+            <Name>width</Name>
+            <Value>948</Value>
+        </Property>
+        <Property>
+            <Name>opaque</Name>
+            <Value>false</Value>
+        </Property>
+        <Property>
+            <Name>background</Name>
+            <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+        </Property>
+        <Property>
+            <Name>foreground</Name>
+            <Value>java.awt.SystemColor[i=9]</Value>
+        </Property>
+        <Property>
+            <Name>font</Name>
+            <Value>java.awt.Font[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+        </Property>
+        <Property>
+            <Name>enabled</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>focusable</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>visible</Name>
+            <Value>true</Value>
+        </Property>
+    </Attributes>
+    <Contents>
+        <Container>
+            <Attributes>
+                <Property>
+                    <Name>ID</Name>
+                    <Value>w1667985028</Value>
+                </Property>
+                <Property>
+                    <Name>Class</Name>
+                    <Value>javax.swing.JPanel</Value>
+                </Property>
+                <Property>
+                    <Name>Type</Name>
+                    <Value>SYSTEM INTERACTION</Value>
+                </Property>
+                <Property>
+                    <Name>X</Name>
+                    <Value>1</Value>
+                </Property>
+                <Property>
+                    <Name>Y</Name>
+                    <Value>36</Value>
+                </Property>
+                <Property>
+                    <Name>Title</Name>
+                    <Value>null.contentPane</Value>
+                </Property>
+                <Property>
+                    <Name>height</Name>
+                    <Value>313</Value>
+                </Property>
+                <Property>
+                    <Name>width</Name>
+                    <Value>948</Value>
+                </Property>
+                <Property>
+                    <Name>opaque</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>background</Name>
+                    <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+                </Property>
+                <Property>
+                    <Name>foreground</Name>
+                    <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+                </Property>
+                <Property>
+                    <Name>font</Name>
+                    <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+                </Property>
+                <Property>
+                    <Name>enabled</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>focusable</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>visible</Name>
+                    <Value>true</Value>
+                </Property>
+            </Attributes>
+            <Contents>
+                <Container>
+                    <Attributes>
+                        <Property>
+                            <Name>ID</Name>
+                            <Value>w1665103552</Value>
+                        </Property>
+                        <Property>
+                            <Name>Class</Name>
+                            <Value>javax.swing.JPanel</Value>
+                        </Property>
+                        <Property>
+                            <Name>Type</Name>
+                            <Value>SYSTEM INTERACTION</Value>
+                        </Property>
+                        <Property>
+                            <Name>X</Name>
+                            <Value>1</Value>
+                        </Property>
+                        <Property>
+                            <Name>Y</Name>
+                            <Value>36</Value>
+                        </Property>
+                        <Property>
+                            <Name>Title</Name>
+                            <Value>Pos(1,36)</Value>
+                        </Property>
+                        <Property>
+                            <Name>height</Name>
+                            <Value>313</Value>
+                        </Property>
+                        <Property>
+                            <Name>width</Name>
+                            <Value>948</Value>
+                        </Property>
+                        <Property>
+                            <Name>opaque</Name>
+                            <Value>true</Value>
+                        </Property>
+                        <Property>
+                            <Name>background</Name>
+                            <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+                        </Property>
+                        <Property>
+                            <Name>foreground</Name>
+                            <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+                        </Property>
+                        <Property>
+                            <Name>font</Name>
+                            <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+                        </Property>
+                        <Property>
+                            <Name>enabled</Name>
+                            <Value>true</Value>
+                        </Property>
+                        <Property>
+                            <Name>focusable</Name>
+                            <Value>true</Value>
+                        </Property>
+                        <Property>
+                            <Name>visible</Name>
+                            <Value>true</Value>
+                        </Property>
+                    </Attributes>
+                    <Contents>
+                        <Container>
+                            <Attributes>
+<Property>
+    <Name>ID</Name>
+    <Value>w1575777796</Value>
+</Property>
+<Property>
+    <Name>Class</Name>
+    <Value>javax.swing.JPanel</Value>
+</Property>
+<Property>
+    <Name>Type</Name>
+    <Value>SYSTEM INTERACTION</Value>
+</Property>
+<Property>
+    <Name>X</Name>
+    <Value>1</Value>
+</Property>
+<Property>
+    <Name>Y</Name>
+    <Value>36</Value>
+</Property>
+<Property>
+    <Name>Title</Name>
+    <Value>Pos(1,36)</Value>
+</Property>
+<Property>
+    <Name>height</Name>
+    <Value>165</Value>
+</Property>
+<Property>
+    <Name>width</Name>
+    <Value>948</Value>
+</Property>
+<Property>
+    <Name>opaque</Name>
+    <Value>true</Value>
+</Property>
+<Property>
+    <Name>background</Name>
+    <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+</Property>
+<Property>
+    <Name>foreground</Name>
+    <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+</Property>
+<Property>
+    <Name>font</Name>
+    <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+</Property>
+<Property>
+    <Name>enabled</Name>
+    <Value>true</Value>
+</Property>
+<Property>
+    <Name>focusable</Name>
+    <Value>true</Value>
+</Property>
+<Property>
+    <Name>visible</Name>
+    <Value>true</Value>
+</Property>
+                            </Attributes>
+                            <Contents>
+<Widget>
+    <Attributes>
+        <Property>
+            <Name>ID</Name>
+            <Value>w2247986230</Value>
+        </Property>
+        <Property>
+            <Name>Class</Name>
+            <Value>javax.swing.JLabel</Value>
+        </Property>
+        <Property>
+            <Name>Type</Name>
+            <Value>SYSTEM INTERACTION</Value>
+        </Property>
+        <Property>
+            <Name>X</Name>
+            <Value>38</Value>
+        </Property>
+        <Property>
+            <Name>Y</Name>
+            <Value>36</Value>
+        </Property>
+        <Property>
+            <Name>Title</Name>
+            <Value>Hash 1:</Value>
+        </Property>
+        <Property>
+            <Name>text</Name>
+            <Value>Hash 1:</Value>
+        </Property>
+        <Property>
+            <Name>height</Name>
+            <Value>15</Value>
+        </Property>
+        <Property>
+            <Name>width</Name>
+            <Value>48</Value>
+        </Property>
+        <Property>
+            <Name>opaque</Name>
+            <Value>false</Value>
+        </Property>
+        <Property>
+            <Name>background</Name>
+            <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+        </Property>
+        <Property>
+            <Name>foreground</Name>
+            <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+        </Property>
+        <Property>
+            <Name>font</Name>
+            <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+        </Property>
+        <Property>
+            <Name>enabled</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>focusable</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>visible</Name>
+            <Value>true</Value>
+        </Property>
+    </Attributes>
+</Widget>
+<Widget>
+    <Attributes>
+        <Property>
+            <Name>ID</Name>
+            <Value>w1303763692</Value>
+        </Property>
+        <Property>
+            <Name>Class</Name>
+            <Value>javax.swing.JTextField</Value>
+        </Property>
+        <Property>
+            <Name>Type</Name>
+            <Value>SYSTEM INTERACTION</Value>
+        </Property>
+        <Property>
+            <Name>X</Name>
+            <Value>1</Value>
+        </Property>
+        <Property>
+            <Name>Y</Name>
+            <Value>51</Value>
+        </Property>
+        <Property>
+            <Name>ReplayableAction</Name>
+            <Value>edu.umd.cs.guitar.event.JFCEditableTextHandler</Value>
+        </Property>
+        <Property>
+            <Name>Title</Name>
+            <Value>hashvcalc/HashVcalc.tf1:Ljavax/swing/JTextField;</Value>
+        </Property>
+        <Property>
+            <Name>editable</Name>
+            <Value>false</Value>
+        </Property>
+        <Property>
+            <Name>text</Name>
+            <Value></Value>
+        </Property>
+        <Property>
+            <Name>height</Name>
+            <Value>45</Value>
+        </Property>
+        <Property>
+            <Name>width</Name>
+            <Value>948</Value>
+        </Property>
+        <Property>
+            <Name>opaque</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>background</Name>
+            <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+        </Property>
+        <Property>
+            <Name>foreground</Name>
+            <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+        </Property>
+        <Property>
+            <Name>font</Name>
+            <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+        </Property>
+        <Property>
+            <Name>enabled</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>focusable</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>visible</Name>
+            <Value>true</Value>
+        </Property>
+    </Attributes>
+</Widget>
+<Widget>
+    <Attributes>
+        <Property>
+            <Name>ID</Name>
+            <Value>w2247986478</Value>
+        </Property>
+        <Property>
+            <Name>Class</Name>
+            <Value>javax.swing.JLabel</Value>
+        </Property>
+        <Property>
+            <Name>Type</Name>
+            <Value>SYSTEM INTERACTION</Value>
+        </Property>
+        <Property>
+            <Name>X</Name>
+            <Value>38</Value>
+        </Property>
+        <Property>
+            <Name>Y</Name>
+            <Value>96</Value>
+        </Property>
+        <Property>
+            <Name>Title</Name>
+            <Value>Hash 2:</Value>
+        </Property>
+        <Property>
+            <Name>text</Name>
+            <Value>Hash 2:</Value>
+        </Property>
+        <Property>
+            <Name>height</Name>
+            <Value>15</Value>
+        </Property>
+        <Property>
+            <Name>width</Name>
+            <Value>48</Value>
+        </Property>
+        <Property>
+            <Name>opaque</Name>
+            <Value>false</Value>
+        </Property>
+        <Property>
+            <Name>background</Name>
+            <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+        </Property>
+        <Property>
+            <Name>foreground</Name>
+            <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+        </Property>
+        <Property>
+            <Name>font</Name>
+            <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+        </Property>
+        <Property>
+            <Name>enabled</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>focusable</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>visible</Name>
+            <Value>true</Value>
+        </Property>
+    </Attributes>
+</Widget>
+<Widget>
+    <Attributes>
+        <Property>
+            <Name>ID</Name>
+            <Value>w1427843044</Value>
+        </Property>
+        <Property>
+            <Name>Class</Name>
+            <Value>javax.swing.JTextField</Value>
+        </Property>
+        <Property>
+            <Name>Type</Name>
+            <Value>SYSTEM INTERACTION</Value>
+        </Property>
+        <Property>
+            <Name>X</Name>
+            <Value>1</Value>
+        </Property>
+        <Property>
+            <Name>Y</Name>
+            <Value>111</Value>
+        </Property>
+        <Property>
+            <Name>ReplayableAction</Name>
+            <Value>edu.umd.cs.guitar.event.JFCEditableTextHandler</Value>
+        </Property>
+        <Property>
+            <Name>Title</Name>
+            <Value>hashvcalc/HashVcalc.tf2:Ljavax/swing/JTextField;</Value>
+        </Property>
+        <Property>
+            <Name>editable</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>text</Name>
+            <Value></Value>
+        </Property>
+        <Property>
+            <Name>height</Name>
+            <Value>45</Value>
+        </Property>
+        <Property>
+            <Name>width</Name>
+            <Value>948</Value>
+        </Property>
+        <Property>
+            <Name>opaque</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>background</Name>
+            <Value>javax.swing.plaf.ColorUIResource[r=255,g=255,b=255]</Value>
+        </Property>
+        <Property>
+            <Name>foreground</Name>
+            <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+        </Property>
+        <Property>
+            <Name>font</Name>
+            <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+        </Property>
+        <Property>
+            <Name>enabled</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>focusable</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>visible</Name>
+            <Value>true</Value>
+        </Property>
+    </Attributes>
+</Widget>
+<Widget>
+    <Attributes>
+        <Property>
+            <Name>ID</Name>
+            <Value>w1551922334</Value>
+        </Property>
+        <Property>
+            <Name>Class</Name>
+            <Value>javax.swing.JTextField</Value>
+        </Property>
+        <Property>
+            <Name>Type</Name>
+            <Value>SYSTEM INTERACTION</Value>
+        </Property>
+        <Property>
+            <Name>X</Name>
+            <Value>1</Value>
+        </Property>
+        <Property>
+            <Name>Y</Name>
+            <Value>156</Value>
+        </Property>
+        <Property>
+            <Name>ReplayableAction</Name>
+            <Value>edu.umd.cs.guitar.event.JFCEditableTextHandler</Value>
+        </Property>
+        <Property>
+            <Name>Title</Name>
+            <Value>hashvcalc/HashVcalc.tf3:Ljavax/swing/JTextField;</Value>
+        </Property>
+        <Property>
+            <Name>editable</Name>
+            <Value>false</Value>
+        </Property>
+        <Property>
+            <Name>text</Name>
+            <Value></Value>
+        </Property>
+        <Property>
+            <Name>height</Name>
+            <Value>45</Value>
+        </Property>
+        <Property>
+            <Name>width</Name>
+            <Value>948</Value>
+        </Property>
+        <Property>
+            <Name>opaque</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>background</Name>
+            <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+        </Property>
+        <Property>
+            <Name>foreground</Name>
+            <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+        </Property>
+        <Property>
+            <Name>font</Name>
+            <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+        </Property>
+        <Property>
+            <Name>enabled</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>focusable</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>visible</Name>
+            <Value>true</Value>
+        </Property>
+    </Attributes>
+</Widget>
+                            </Contents>
+                        </Container>
+                        <Container>
+                            <Attributes>
+<Property>
+    <Name>ID</Name>
+    <Value>w1575777858</Value>
+</Property>
+<Property>
+    <Name>Class</Name>
+    <Value>javax.swing.JPanel</Value>
+</Property>
+<Property>
+    <Name>Type</Name>
+    <Value>SYSTEM INTERACTION</Value>
+</Property>
+<Property>
+    <Name>X</Name>
+    <Value>1</Value>
+</Property>
+<Property>
+    <Name>Y</Name>
+    <Value>201</Value>
+</Property>
+<Property>
+    <Name>Title</Name>
+    <Value>Pos(1,201)</Value>
+</Property>
+<Property>
+    <Name>height</Name>
+    <Value>83</Value>
+</Property>
+<Property>
+    <Name>width</Name>
+    <Value>73</Value>
+</Property>
+<Property>
+    <Name>opaque</Name>
+    <Value>true</Value>
+</Property>
+<Property>
+    <Name>background</Name>
+    <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+</Property>
+<Property>
+    <Name>foreground</Name>
+    <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+</Property>
+<Property>
+    <Name>font</Name>
+    <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+</Property>
+<Property>
+    <Name>enabled</Name>
+    <Value>true</Value>
+</Property>
+<Property>
+    <Name>focusable</Name>
+    <Value>true</Value>
+</Property>
+<Property>
+    <Name>visible</Name>
+    <Value>true</Value>
+</Property>
+                            </Attributes>
+                            <Contents>
+<Container>
+    <Attributes>
+        <Property>
+            <Name>ID</Name>
+            <Value>w1052031852</Value>
+        </Property>
+        <Property>
+            <Name>Class</Name>
+            <Value>javax.swing.JScrollPane</Value>
+        </Property>
+        <Property>
+            <Name>Type</Name>
+            <Value>SYSTEM INTERACTION</Value>
+        </Property>
+        <Property>
+            <Name>X</Name>
+            <Value>1</Value>
+        </Property>
+        <Property>
+            <Name>Y</Name>
+            <Value>201</Value>
+        </Property>
+        <Property>
+            <Name>Title</Name>
+            <Value>Pos(1,201)</Value>
+        </Property>
+        <Property>
+            <Name>height</Name>
+            <Value>83</Value>
+        </Property>
+        <Property>
+            <Name>width</Name>
+            <Value>73</Value>
+        </Property>
+        <Property>
+            <Name>opaque</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>background</Name>
+            <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+        </Property>
+        <Property>
+            <Name>foreground</Name>
+            <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+        </Property>
+        <Property>
+            <Name>font</Name>
+            <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+        </Property>
+        <Property>
+            <Name>enabled</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>focusable</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>visible</Name>
+            <Value>true</Value>
+        </Property>
+    </Attributes>
+    <Contents>
+        <Container>
+            <Attributes>
+                <Property>
+                    <Name>ID</Name>
+                    <Value>w2793254286</Value>
+                </Property>
+                <Property>
+                    <Name>Class</Name>
+                    <Value>javax.swing.JViewport</Value>
+                </Property>
+                <Property>
+                    <Name>Type</Name>
+                    <Value>SYSTEM INTERACTION</Value>
+                </Property>
+                <Property>
+                    <Name>X</Name>
+                    <Value>2</Value>
+                </Property>
+                <Property>
+                    <Name>Y</Name>
+                    <Value>202</Value>
+                </Property>
+                <Property>
+                    <Name>Title</Name>
+                    <Value>Pos(2,202)</Value>
+                </Property>
+                <Property>
+                    <Name>height</Name>
+                    <Value>80</Value>
+                </Property>
+                <Property>
+                    <Name>width</Name>
+                    <Value>55</Value>
+                </Property>
+                <Property>
+                    <Name>opaque</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>background</Name>
+                    <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+                </Property>
+                <Property>
+                    <Name>foreground</Name>
+                    <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+                </Property>
+                <Property>
+                    <Name>font</Name>
+                    <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+                </Property>
+                <Property>
+                    <Name>enabled</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>focusable</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>visible</Name>
+                    <Value>true</Value>
+                </Property>
+            </Attributes>
+            <Contents>
+                <Container>
+                    <Attributes>
+                        <Property>
+                            <Name>ID</Name>
+                            <Value>w274378750</Value>
+                        </Property>
+                        <Property>
+                            <Name>Class</Name>
+                            <Value>javax.swing.JList</Value>
+                        </Property>
+                        <Property>
+                            <Name>Type</Name>
+                            <Value>SYSTEM INTERACTION</Value>
+                        </Property>
+                        <Property>
+                            <Name>X</Name>
+                            <Value>2</Value>
+                        </Property>
+                        <Property>
+                            <Name>Y</Name>
+                            <Value>202</Value>
+                        </Property>
+                        <Property>
+                            <Name>ReplayableAction</Name>
+                            <Value>edu.umd.cs.guitar.event.JFCSelectionHandler</Value>
+                        </Property>
+                        <Property>
+                            <Name>Title</Name>
+                            <Value>hashvcalc/HashVcalc.list:Ljavax/swing/JList;</Value>
+                        </Property>
+                        <Property>
+                            <Name>height</Name>
+                            <Value>119</Value>
+                        </Property>
+                        <Property>
+                            <Name>width</Name>
+                            <Value>55</Value>
+                        </Property>
+                        <Property>
+                            <Name>opaque</Name>
+                            <Value>true</Value>
+                        </Property>
+                        <Property>
+                            <Name>background</Name>
+                            <Value>javax.swing.plaf.ColorUIResource[r=255,g=255,b=255]</Value>
+                        </Property>
+                        <Property>
+                            <Name>foreground</Name>
+                            <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+                        </Property>
+                        <Property>
+                            <Name>font</Name>
+                            <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+                        </Property>
+                        <Property>
+                            <Name>enabled</Name>
+                            <Value>true</Value>
+                        </Property>
+                        <Property>
+                            <Name>focusable</Name>
+                            <Value>true</Value>
+                        </Property>
+                        <Property>
+                            <Name>visible</Name>
+                            <Value>true</Value>
+                        </Property>
+                    </Attributes>
+                    <Contents>
+                        <Widget>
+                            <Attributes>
+<Property>
+    <Name>ID</Name>
+    <Value>w1201188836</Value>
+</Property>
+<Property>
+    <Name>Class</Name>
+    <Value>javax.swing.CellRendererPane</Value>
+</Property>
+<Property>
+    <Name>Type</Name>
+    <Value>SYSTEM INTERACTION</Value>
+</Property>
+<Property>
+    <Name>X</Name>
+    <Value>2</Value>
+</Property>
+<Property>
+    <Name>Y</Name>
+    <Value>202</Value>
+</Property>
+<Property>
+    <Name>Title</Name>
+    <Value>Pos(2,202)</Value>
+</Property>
+<Property>
+    <Name>background</Name>
+    <Value>javax.swing.plaf.ColorUIResource[r=255,g=255,b=255]</Value>
+</Property>
+<Property>
+    <Name>foreground</Name>
+    <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+</Property>
+<Property>
+    <Name>font</Name>
+    <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+</Property>
+<Property>
+    <Name>enabled</Name>
+    <Value>true</Value>
+</Property>
+<Property>
+    <Name>focusable</Name>
+    <Value>true</Value>
+</Property>
+<Property>
+    <Name>height</Name>
+    <Value>0</Value>
+</Property>
+<Property>
+    <Name>width</Name>
+    <Value>0</Value>
+</Property>
+<Property>
+    <Name>visible</Name>
+    <Value>false</Value>
+</Property>
+<Property>
+    <Name>opaque</Name>
+    <Value>false</Value>
+</Property>
+                            </Attributes>
+                        </Widget>
+                    </Contents>
+                </Container>
+            </Contents>
+        </Container>
+        <Container>
+            <Attributes>
+                <Property>
+                    <Name>ID</Name>
+                    <Value>w3649549870</Value>
+                </Property>
+                <Property>
+                    <Name>Class</Name>
+                    <Value>javax.swing.JScrollPane$ScrollBar</Value>
+                </Property>
+                <Property>
+                    <Name>Type</Name>
+                    <Value>SYSTEM INTERACTION</Value>
+                </Property>
+                <Property>
+                    <Name>X</Name>
+                    <Value>57</Value>
+                </Property>
+                <Property>
+                    <Name>Y</Name>
+                    <Value>202</Value>
+                </Property>
+                <Property>
+                    <Name>Title</Name>
+                    <Value>Pos(57,202)</Value>
+                </Property>
+                <Property>
+                    <Name>height</Name>
+                    <Value>80</Value>
+                </Property>
+                <Property>
+                    <Name>width</Name>
+                    <Value>15</Value>
+                </Property>
+                <Property>
+                    <Name>opaque</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>background</Name>
+                    <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+                </Property>
+                <Property>
+                    <Name>foreground</Name>
+                    <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+                </Property>
+                <Property>
+                    <Name>font</Name>
+                    <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+                </Property>
+                <Property>
+                    <Name>enabled</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>focusable</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>visible</Name>
+                    <Value>true</Value>
+                </Property>
+            </Attributes>
+            <Contents>
+                <Widget>
+                    <Attributes>
+                        <Property>
+                            <Name>ID</Name>
+                            <Value>w2836860532</Value>
+                        </Property>
+                        <Property>
+                            <Name>Class</Name>
+                            <Value>javax.swing.plaf.metal.MetalScrollButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>Type</Name>
+                            <Value>SYSTEM INTERACTION</Value>
+                        </Property>
+                        <Property>
+                            <Name>X</Name>
+                            <Value>57</Value>
+                        </Property>
+                        <Property>
+                            <Name>Y</Name>
+                            <Value>267</Value>
+                        </Property>
+                        <Property>
+                            <Name>Title</Name>
+                            <Value></Value>
+                        </Property>
+                        <Property>
+                            <Name>selected</Name>
+                            <Value>false</Value>
+                        </Property>
+                        <Property>
+                            <Name>text</Name>
+                            <Value></Value>
+                        </Property>
+                        <Property>
+                            <Name>height</Name>
+                            <Value>15</Value>
+                        </Property>
+                        <Property>
+                            <Name>width</Name>
+                            <Value>15</Value>
+                        </Property>
+                        <Property>
+                            <Name>opaque</Name>
+                            <Value>true</Value>
+                        </Property>
+                        <Property>
+                            <Name>background</Name>
+                            <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+                        </Property>
+                        <Property>
+                            <Name>foreground</Name>
+                            <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+                        </Property>
+                        <Property>
+                            <Name>font</Name>
+                            <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+                        </Property>
+                        <Property>
+                            <Name>enabled</Name>
+                            <Value>true</Value>
+                        </Property>
+                        <Property>
+                            <Name>focusable</Name>
+                            <Value>false</Value>
+                        </Property>
+                        <Property>
+                            <Name>visible</Name>
+                            <Value>true</Value>
+                        </Property>
+                    </Attributes>
+                </Widget>
+                <Widget>
+                    <Attributes>
+                        <Property>
+                            <Name>ID</Name>
+                            <Value>w2836860594</Value>
+                        </Property>
+                        <Property>
+                            <Name>Class</Name>
+                            <Value>javax.swing.plaf.metal.MetalScrollButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>Type</Name>
+                            <Value>SYSTEM INTERACTION</Value>
+                        </Property>
+                        <Property>
+                            <Name>X</Name>
+                            <Value>57</Value>
+                        </Property>
+                        <Property>
+                            <Name>Y</Name>
+                            <Value>202</Value>
+                        </Property>
+                        <Property>
+                            <Name>Title</Name>
+                            <Value></Value>
+                        </Property>
+                        <Property>
+                            <Name>selected</Name>
+                            <Value>false</Value>
+                        </Property>
+                        <Property>
+                            <Name>text</Name>
+                            <Value></Value>
+                        </Property>
+                        <Property>
+                            <Name>height</Name>
+                            <Value>15</Value>
+                        </Property>
+                        <Property>
+                            <Name>width</Name>
+                            <Value>15</Value>
+                        </Property>
+                        <Property>
+                            <Name>opaque</Name>
+                            <Value>true</Value>
+                        </Property>
+                        <Property>
+                            <Name>background</Name>
+                            <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+                        </Property>
+                        <Property>
+                            <Name>foreground</Name>
+                            <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+                        </Property>
+                        <Property>
+                            <Name>font</Name>
+                            <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+                        </Property>
+                        <Property>
+                            <Name>enabled</Name>
+                            <Value>true</Value>
+                        </Property>
+                        <Property>
+                            <Name>focusable</Name>
+                            <Value>false</Value>
+                        </Property>
+                        <Property>
+                            <Name>visible</Name>
+                            <Value>true</Value>
+                        </Property>
+                    </Attributes>
+                </Widget>
+            </Contents>
+        </Container>
+        <Container>
+            <Attributes>
+                <Property>
+                    <Name>ID</Name>
+                    <Value>w3649549932</Value>
+                </Property>
+                <Property>
+                    <Name>Class</Name>
+                    <Value>javax.swing.JScrollPane$ScrollBar</Value>
+                </Property>
+                <Property>
+                    <Name>Type</Name>
+                    <Value>SYSTEM INTERACTION</Value>
+                </Property>
+                <Property>
+                    <Name>X</Name>
+                    <Value>1</Value>
+                </Property>
+                <Property>
+                    <Name>Y</Name>
+                    <Value>201</Value>
+                </Property>
+                <Property>
+                    <Name>Title</Name>
+                    <Value>Pos(1,201)</Value>
+                </Property>
+                <Property>
+                    <Name>height</Name>
+                    <Value>0</Value>
+                </Property>
+                <Property>
+                    <Name>width</Name>
+                    <Value>0</Value>
+                </Property>
+                <Property>
+                    <Name>opaque</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>background</Name>
+                    <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+                </Property>
+                <Property>
+                    <Name>foreground</Name>
+                    <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+                </Property>
+                <Property>
+                    <Name>font</Name>
+                    <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+                </Property>
+                <Property>
+                    <Name>enabled</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>focusable</Name>
+                    <Value>true</Value>
+                </Property>
+                <Property>
+                    <Name>visible</Name>
+                    <Value>false</Value>
+                </Property>
+            </Attributes>
+            <Contents>
+                <Widget>
+                    <Attributes>
+                        <Property>
+                            <Name>ID</Name>
+                            <Value>w2836862454</Value>
+                        </Property>
+                        <Property>
+                            <Name>Class</Name>
+                            <Value>javax.swing.plaf.metal.MetalScrollButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>Type</Name>
+                            <Value>SYSTEM INTERACTION</Value>
+                        </Property>
+                        <Property>
+                            <Name>X</Name>
+                            <Value>1</Value>
+                        </Property>
+                        <Property>
+                            <Name>Y</Name>
+                            <Value>201</Value>
+                        </Property>
+                        <Property>
+                            <Name>Title</Name>
+                            <Value></Value>
+                        </Property>
+                        <Property>
+                            <Name>selected</Name>
+                            <Value>false</Value>
+                        </Property>
+                        <Property>
+                            <Name>text</Name>
+                            <Value></Value>
+                        </Property>
+                        <Property>
+                            <Name>height</Name>
+                            <Value>0</Value>
+                        </Property>
+                        <Property>
+                            <Name>width</Name>
+                            <Value>0</Value>
+                        </Property>
+                        <Property>
+                            <Name>opaque</Name>
+                            <Value>true</Value>
+                        </Property>
+                        <Property>
+                            <Name>background</Name>
+                            <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+                        </Property>
+                        <Property>
+                            <Name>foreground</Name>
+                            <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+                        </Property>
+                        <Property>
+                            <Name>font</Name>
+                            <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+                        </Property>
+                        <Property>
+                            <Name>enabled</Name>
+                            <Value>true</Value>
+                        </Property>
+                        <Property>
+                            <Name>focusable</Name>
+                            <Value>false</Value>
+                        </Property>
+                        <Property>
+                            <Name>visible</Name>
+                            <Value>true</Value>
+                        </Property>
+                    </Attributes>
+                </Widget>
+                <Widget>
+                    <Attributes>
+                        <Property>
+                            <Name>ID</Name>
+                            <Value>w2836862516</Value>
+                        </Property>
+                        <Property>
+                            <Name>Class</Name>
+                            <Value>javax.swing.plaf.metal.MetalScrollButton</Value>
+                        </Property>
+                        <Property>
+                            <Name>Type</Name>
+                            <Value>SYSTEM INTERACTION</Value>
+                        </Property>
+                        <Property>
+                            <Name>X</Name>
+                            <Value>1</Value>
+                        </Property>
+                        <Property>
+                            <Name>Y</Name>
+                            <Value>201</Value>
+                        </Property>
+                        <Property>
+                            <Name>Title</Name>
+                            <Value></Value>
+                        </Property>
+                        <Property>
+                            <Name>selected</Name>
+                            <Value>false</Value>
+                        </Property>
+                        <Property>
+                            <Name>text</Name>
+                            <Value></Value>
+                        </Property>
+                        <Property>
+                            <Name>height</Name>
+                            <Value>0</Value>
+                        </Property>
+                        <Property>
+                            <Name>width</Name>
+                            <Value>0</Value>
+                        </Property>
+                        <Property>
+                            <Name>opaque</Name>
+                            <Value>true</Value>
+                        </Property>
+                        <Property>
+                            <Name>background</Name>
+                            <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+                        </Property>
+                        <Property>
+                            <Name>foreground</Name>
+                            <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+                        </Property>
+                        <Property>
+                            <Name>font</Name>
+                            <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+                        </Property>
+                        <Property>
+                            <Name>enabled</Name>
+                            <Value>true</Value>
+                        </Property>
+                        <Property>
+                            <Name>focusable</Name>
+                            <Value>false</Value>
+                        </Property>
+                        <Property>
+                            <Name>visible</Name>
+                            <Value>true</Value>
+                        </Property>
+                    </Attributes>
+                </Widget>
+            </Contents>
+        </Container>
+    </Contents>
+</Container>
+                            </Contents>
+                        </Container>
+                        <Container>
+                            <Attributes>
+<Property>
+    <Name>ID</Name>
+    <Value>w1575777920</Value>
+</Property>
+<Property>
+    <Name>Class</Name>
+    <Value>javax.swing.JPanel</Value>
+</Property>
+<Property>
+    <Name>Type</Name>
+    <Value>SYSTEM INTERACTION</Value>
+</Property>
+<Property>
+    <Name>X</Name>
+    <Value>1</Value>
+</Property>
+<Property>
+    <Name>Y</Name>
+    <Value>284</Value>
+</Property>
+<Property>
+    <Name>Title</Name>
+    <Value>Pos(1,284)</Value>
+</Property>
+<Property>
+    <Name>height</Name>
+    <Value>65</Value>
+</Property>
+<Property>
+    <Name>width</Name>
+    <Value>948</Value>
+</Property>
+<Property>
+    <Name>opaque</Name>
+    <Value>true</Value>
+</Property>
+<Property>
+    <Name>background</Name>
+    <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+</Property>
+<Property>
+    <Name>foreground</Name>
+    <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+</Property>
+<Property>
+    <Name>font</Name>
+    <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+</Property>
+<Property>
+    <Name>enabled</Name>
+    <Value>true</Value>
+</Property>
+<Property>
+    <Name>focusable</Name>
+    <Value>true</Value>
+</Property>
+<Property>
+    <Name>visible</Name>
+    <Value>true</Value>
+</Property>
+                            </Attributes>
+                            <Contents>
+<Widget>
+    <Attributes>
+        <Property>
+            <Name>ID</Name>
+            <Value>w2978953846</Value>
+        </Property>
+        <Property>
+            <Name>Class</Name>
+            <Value>javax.swing.JButton</Value>
+        </Property>
+        <Property>
+            <Name>Type</Name>
+            <Value>SYSTEM INTERACTION</Value>
+        </Property>
+        <Property>
+            <Name>X</Name>
+            <Value>175</Value>
+        </Property>
+        <Property>
+            <Name>Y</Name>
+            <Value>294</Value>
+        </Property>
+        <Property>
+            <Name>ReplayableAction</Name>
+            <Value>edu.umd.cs.guitar.event.JFCActionHandler</Value>
+        </Property>
+        <Property>
+            <Name>Title</Name>
+            <Value>Check</Value>
+        </Property>
+        <Property>
+            <Name>ActionListeners</Name>
+            <Value>hashvcalc.HashVcalc</Value>
+        </Property>
+        <Property>
+            <Name>selected</Name>
+            <Value>false</Value>
+        </Property>
+        <Property>
+            <Name>text</Name>
+            <Value>Check</Value>
+        </Property>
+        <Property>
+            <Name>height</Name>
+            <Value>45</Value>
+        </Property>
+        <Property>
+            <Name>width</Name>
+            <Value>100</Value>
+        </Property>
+        <Property>
+            <Name>opaque</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>background</Name>
+            <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+        </Property>
+        <Property>
+            <Name>foreground</Name>
+            <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+        </Property>
+        <Property>
+            <Name>font</Name>
+            <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+        </Property>
+        <Property>
+            <Name>enabled</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>focusable</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>visible</Name>
+            <Value>true</Value>
+        </Property>
+    </Attributes>
+</Widget>
+<Widget>
+    <Attributes>
+        <Property>
+            <Name>ID</Name>
+            <Value>w1389449740</Value>
+        </Property>
+        <Property>
+            <Name>Class</Name>
+            <Value>javax.swing.JLabel</Value>
+        </Property>
+        <Property>
+            <Name>Type</Name>
+            <Value>SYSTEM INTERACTION</Value>
+        </Property>
+        <Property>
+            <Name>X</Name>
+            <Value>375</Value>
+        </Property>
+        <Property>
+            <Name>Y</Name>
+            <Value>294</Value>
+        </Property>
+        <Property>
+            <Name>Title</Name>
+            <Value></Value>
+        </Property>
+        <Property>
+            <Name>text</Name>
+            <Value></Value>
+        </Property>
+        <Property>
+            <Name>height</Name>
+            <Value>45</Value>
+        </Property>
+        <Property>
+            <Name>width</Name>
+            <Value>200</Value>
+        </Property>
+        <Property>
+            <Name>opaque</Name>
+            <Value>false</Value>
+        </Property>
+        <Property>
+            <Name>background</Name>
+            <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+        </Property>
+        <Property>
+            <Name>foreground</Name>
+            <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+        </Property>
+        <Property>
+            <Name>font</Name>
+            <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+        </Property>
+        <Property>
+            <Name>enabled</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>focusable</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>visible</Name>
+            <Value>true</Value>
+        </Property>
+    </Attributes>
+</Widget>
+<Widget>
+    <Attributes>
+        <Property>
+            <Name>ID</Name>
+            <Value>w2724937094</Value>
+        </Property>
+        <Property>
+            <Name>Class</Name>
+            <Value>javax.swing.JButton</Value>
+        </Property>
+        <Property>
+            <Name>Type</Name>
+            <Value>SYSTEM INTERACTION</Value>
+        </Property>
+        <Property>
+            <Name>X</Name>
+            <Value>675</Value>
+        </Property>
+        <Property>
+            <Name>Y</Name>
+            <Value>294</Value>
+        </Property>
+        <Property>
+            <Name>ReplayableAction</Name>
+            <Value>edu.umd.cs.guitar.event.JFCActionHandler</Value>
+        </Property>
+        <Property>
+            <Name>Title</Name>
+            <Value>Make-Hash</Value>
+        </Property>
+        <Property>
+            <Name>ActionListeners</Name>
+            <Value>hashvcalc.HashVcalc</Value>
+        </Property>
+        <Property>
+            <Name>selected</Name>
+            <Value>false</Value>
+        </Property>
+        <Property>
+            <Name>text</Name>
+            <Value>Make-Hash</Value>
+        </Property>
+        <Property>
+            <Name>height</Name>
+            <Value>45</Value>
+        </Property>
+        <Property>
+            <Name>width</Name>
+            <Value>100</Value>
+        </Property>
+        <Property>
+            <Name>opaque</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>background</Name>
+            <Value>javax.swing.plaf.ColorUIResource[r=238,g=238,b=238]</Value>
+        </Property>
+        <Property>
+            <Name>foreground</Name>
+            <Value>sun.swing.PrintColorUIResource[r=51,g=51,b=51]</Value>
+        </Property>
+        <Property>
+            <Name>font</Name>
+            <Value>javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12]</Value>
+        </Property>
+        <Property>
+            <Name>enabled</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>focusable</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>visible</Name>
+            <Value>true</Value>
+        </Property>
+        <Property>
+            <Name>Invokelist</Name>
+            <Value>Open</Value>
+        </Property>
+    </Attributes>
+</Widget>
+                            </Contents>
+                        </Container>
+                    </Contents>
+                </Container>
+            </Contents>
+        </Container>
+    </Contents>
+</Container>
+                            </Contents>
+                        </Container>
+                    </Contents>
+                </Container>
+            </Contents>
+        </Container>
+    </GUI>
+</GUIStructure>

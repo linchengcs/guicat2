@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<EFG>
+    <Events>
+        <Event>
+            <EventId>e1980940326</EventId>
+            <WidgetId>w1980940326</WidgetId>
+            <Type>SYSTEM INTERACTION</Type>
+            <Initial>true</Initial>
+            <Action>edu.umd.cs.guitar.event.JFCActionHandler</Action>
+            <Listeners>edu.wmich.cs.aut.arlt12.MainWindow$1</Listeners>
+        </Event>
+        <Event>
+            <EventId>e1980940392</EventId>
+            <WidgetId>w1980940392</WidgetId>
+            <Type>SYSTEM INTERACTION</Type>
+            <Initial>true</Initial>
+            <Action>edu.umd.cs.guitar.event.JFCActionHandler</Action>
+            <Listeners>edu.wmich.cs.aut.arlt12.MainWindow$2</Listeners>
+        </Event>
+        <Event>
+            <EventId>e1980940458</EventId>
+            <WidgetId>w1980940458</WidgetId>
+            <Type>UNRESTRICED FOCUS</Type>
+            <Initial>true</Initial>
+            <Action>edu.umd.cs.guitar.event.JFCActionHandler</Action>
+            <Listeners>edu.wmich.cs.aut.arlt12.MainWindow$3</Listeners>
+        </Event>
+        <Event>
+            <EventId>e2849413934</EventId>
+            <WidgetId>w2849413934</WidgetId>
+            <Type>RESTRICED FOCUS</Type>
+            <Initial>false</Initial>
+            <Action>edu.umd.cs.guitar.event.JFCActionHandler</Action>
+            <Listeners>edu.wmich.cs.aut.arlt12.MainWindow$Dialog$1</Listeners>
+        </Event>
+        <Event>
+            <EventId>e1153096420</EventId>
+            <WidgetId>w1153096420</WidgetId>
+            <Type>SYSTEM INTERACTION</Type>
+            <Initial>false</Initial>
+            <Action>edu.umd.cs.guitar.event.JFCActionHandler</Action>
+            <Listeners>javax.swing.plaf.basic.BasicOptionPaneUI$ButtonActionListener</Listeners>
+        </Event>
+    </Events>
+    <EventGraph>
+        <Row>
+            <E>1</E>
+            <E>1</E>
+            <E>1</E>
+            <E>0</E>
+            <E>0</E>
+        </Row>
+        <Row>
+            <E>1</E>
+            <E>1</E>
+            <E>1</E>
+            <E>0</E>
+            <E>0</E>
+        </Row>
+        <Row>
+            <E>1</E>
+            <E>1</E>
+            <E>1</E>
+            <E>2</E>
+            <E>0</E>
+        </Row>
+        <Row>
+            <E>0</E>
+            <E>0</E>
+            <E>0</E>
+            <E>0</E>
+            <E>2</E>
+        </Row>
+        <Row>
+            <E>0</E>
+            <E>0</E>
+            <E>0</E>
+            <E>0</E>
+            <E>1</E>
+        </Row>
+    </EventGraph>
+</EFG>

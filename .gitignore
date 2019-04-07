@@ -1,0 +1,11 @@
+gradle*
+.gradle/
+.idea/
+build/
+loggers/
+GUITAR-Default.log
+jacoco.exec
+instrumented/
+sootOutput/
+log/*/spinach/
+log/*/module/

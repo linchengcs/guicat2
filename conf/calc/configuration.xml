@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Configuration>
+  <TerminalComponents>
+    <FullComponent>
+      <Component>
+        <Attributes>
+          <Property>
+            <Name>Title</Name>
+            <Value>Determine</Value>
+          </Property>
+        </Attributes>
+      </Component>
+    </FullComponent>
+
+    <FullComponent>
+      <Component>
+        <Attributes>
+          <Property>
+            <Name>Title</Name>
+            <Value>RectFind</Value>
+          </Property>
+        </Attributes>
+      </Component>
+    </FullComponent>
+
+    <FullComponent>
+      <Component>
+        <Attributes>
+          <Property>
+            <Name>Title</Name>
+            <Value>CircleFind</Value>
+          </Property>
+        </Attributes>
+      </Component>
+    </FullComponent>
+
+    <FullComponent>
+      <Component>
+        <Attributes>
+          <Property>
+            <Name>Title</Name>
+            <Value>PrismFind</Value>
+          </Property>
+        </Attributes>
+      </Component>
+    </FullComponent>
+  </TerminalComponents>
+  <IgnoredComponents>
+    <!-- Ignore the gray menu item -->
+    <FullComponent>
+      <Component>
+        <Attributes>
+          <Property>
+            <Name>Title</Name>
+            <Value>File</Value>
+          </Property>
+        </Attributes>
+      </Component>
+    </FullComponent>
+  </IgnoredComponents>
+
+</Configuration>

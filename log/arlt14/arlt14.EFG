@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<EFG>
+    <Events>
+        <Event>
+            <EventId>e640569634</EventId>
+            <WidgetId>w640569634</WidgetId>
+            <Type>SYSTEM INTERACTION</Type>
+            <Initial>true</Initial>
+            <Action>edu.umd.cs.guitar.event.JFCActionHandler</Action>
+            <Listeners>edu.wmich.cs.aut.arlt14.Main$4</Listeners>
+        </Event>
+        <Event>
+            <EventId>e2099671672</EventId>
+            <WidgetId>w2099671672</WidgetId>
+            <Type>SYSTEM INTERACTION</Type>
+            <Initial>true</Initial>
+            <Action>edu.umd.cs.guitar.event.JFCActionHandler</Action>
+            <Listeners>edu.wmich.cs.aut.arlt14.Main$1</Listeners>
+        </Event>
+        <Event>
+            <EventId>e2576421866</EventId>
+            <WidgetId>w2576421866</WidgetId>
+            <Type>SYSTEM INTERACTION</Type>
+            <Initial>true</Initial>
+            <Action>edu.umd.cs.guitar.event.JFCEditableTextHandler</Action>
+            <Listeners>edu.wmich.cs.aut.arlt14.Main$2</Listeners>
+        </Event>
+        <Event>
+            <EventId>e650838240</EventId>
+            <WidgetId>w650838240</WidgetId>
+            <Type>SYSTEM INTERACTION</Type>
+            <Initial>true</Initial>
+            <Action>edu.umd.cs.guitar.event.JFCActionHandler</Action>
+            <Listeners>edu.wmich.cs.aut.arlt14.Main$3</Listeners>
+        </Event>
+    </Events>
+    <EventGraph>
+        <Row>
+            <E>1</E>
+            <E>1</E>
+            <E>1</E>
+            <E>1</E>
+        </Row>
+        <Row>
+            <E>1</E>
+            <E>1</E>
+            <E>1</E>
+            <E>1</E>
+        </Row>
+        <Row>
+            <E>1</E>
+            <E>1</E>
+            <E>1</E>
+            <E>1</E>
+        </Row>
+        <Row>
+            <E>1</E>
+            <E>1</E>
+            <E>1</E>
+            <E>1</E>
+        </Row>
+    </EventGraph>
+</EFG>

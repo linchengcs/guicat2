@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<Configuration>  
+  
+  <TerminalComponents>
+    <FullComponent>
+      <Component>
+	<Attributes>
+	  <Property>
+	    <Name>Title</Name>
+	    <Value>OK</Value>
+	  </Property>
+	</Attributes>
+      </Component>
+    </FullComponent>
+
+  </TerminalComponents>
+  <IgnoredComponents>
+    <!-- Ignore the gray menu item -->
+    <FullComponent>
+      <Component>
+	<Attributes>
+	  <Property>
+	    <Name>Title</Name>
+	    <Value>System</Value>
+	  </Property> 
+	</Attributes>
+      </Component>
+    </FullComponent>
+    <FullComponent>
+      <Component>
+	<Attributes>
+	  <Property>
+	    <Name>Task</Name>
+	    <Value></Value>
+	  </Property> 
+	</Attributes>
+      </Component>
+    </FullComponent>
+    <FullComponent>
+      <Component>
+	<Attributes>
+	  <Property>
+	    <Name>Title</Name>
+	    <Value>Tool</Value>
+	  </Property> 
+	</Attributes>
+      </Component>
+    </FullComponent>
+    <FullComponent>
+      <Component>
+	<Attributes>
+	  <Property>
+	    <Name>Title</Name>
+	    <Value>Help</Value>
+	  </Property> 
+	</Attributes>
+      </Component>
+    </FullComponent>
+  </IgnoredComponents>
+</Configuration>
